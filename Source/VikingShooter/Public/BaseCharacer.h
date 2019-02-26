@@ -6,12 +6,34 @@
 #include "GameFramework/Character.h"
 #include "BaseCharacer.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class VIKINGSHOOTER_API ABaseCharacer : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
+	//Step 2: Expose a float property
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "BaseCharacter")
+		float Health = 100;
+
+	//Step 3: Expose a boolean property
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "BaseCharacter")
+		bool isDead = false;
+
+
+	//Step 4: Make a helper function
+	virtual void CalculateDead();
+
+	//Step 5: Expose a method
+	UFUNCTION(BlueprintCallable, Category = "BaseCharacter")
+		virtual void CalculateHealth(float delta);
+
+
+	//Step 6: Editor code to make updating values in the editor cleaner
+#if WITH_EDITOR
+	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) 
+	override;
+#endif
 	// Sets default values for this character's properties
 	ABaseCharacer();
 

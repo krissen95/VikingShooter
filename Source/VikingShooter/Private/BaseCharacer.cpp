@@ -29,6 +29,34 @@ void ABaseCharacer::Tick(float DeltaTime)
 void ABaseCharacer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+}
+//Step 1: Implement the CalculateHealth function.
+void ABaseCharacer::CalculateHealth(float Delta)
+{
+	Health += Delta;
+	CalculateDead();
+}
+
+//Step 2: Implement the CalculateDead function.
+void ABaseCharacer::CalculateDead()
+{
+	if (Health <= 0)
+		isDead = true;
+	else
+		isDead = false;
 
 }
+#if WITH_EDITOR
+//Step 3: Implement the remainder of our helper code, used by the editor when we change values.
+void ABaseCharacer::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
+{
+	isDead = false;
+	Health = 100;
+
+	Super::PostEditChangeProperty(PropertyChangedEvent);
+
+	CalculateDead();
+}
+#endif
+
 
