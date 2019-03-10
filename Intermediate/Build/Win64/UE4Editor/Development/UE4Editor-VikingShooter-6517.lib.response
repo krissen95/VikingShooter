@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VikingShooter-6517.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Oyvind_Unreal\VikingShooter\Intermediate\Build\Win64\UE4Editor\Development\VikingShooter\VikingShooter.cpp.obj"
+"D:\Oyvind_Unreal\VikingShooter\Intermediate\Build\Win64\UE4Editor\Development\VikingShooter\BaseCharacer.cpp.obj"
+"D:\Oyvind_Unreal\VikingShooter\Intermediate\Build\Win64\UE4Editor\Development\VikingShooter\BaseCharacer.gen.cpp.obj"
+"D:\Oyvind_Unreal\VikingShooter\Intermediate\Build\Win64\UE4Editor\Development\VikingShooter\VikingShooter.init.gen.cpp.obj"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\VikingShooter\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Oyvind_Unreal\VikingShooter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VikingShooter-6517.lib"

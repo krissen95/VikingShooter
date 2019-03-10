@@ -1,0 +1,3 @@
+D:\Oyvind_Unreal\VikingShooter\Source\VikingShooter\VikingShooter.Build.cs
+D:\Oyvind_Unreal\VikingShooter\Source\VikingShooter.Target.cs
+D:\Oyvind_Unreal\VikingShooter\Source\VikingShooterEditor.Target.cs

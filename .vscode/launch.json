@@ -1,0 +1,130 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "VikingShooter (Debug)",
+			"request": "launch",
+			"preLaunchTask": "VikingShooter Win64 Debug Build",
+			"program": "D:\\Oyvind_Unreal\\VikingShooter\\Binaries\\Win64\\VikingShooter-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VikingShooter (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "VikingShooter Win64 DebugGame Build",
+			"program": "D:\\Oyvind_Unreal\\VikingShooter\\Binaries\\Win64\\VikingShooter-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VikingShooter (Development)",
+			"request": "launch",
+			"preLaunchTask": "VikingShooter Win64 Development Build",
+			"program": "D:\\Oyvind_Unreal\\VikingShooter\\Binaries\\Win64\\VikingShooter.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VikingShooter (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "VikingShooter Win64 Shipping Build",
+			"program": "D:\\Oyvind_Unreal\\VikingShooter\\Binaries\\Win64\\VikingShooter-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VikingShooter (Test)",
+			"request": "launch",
+			"preLaunchTask": "VikingShooter Win64 Test Build",
+			"program": "D:\\Oyvind_Unreal\\VikingShooter\\Binaries\\Win64\\VikingShooter-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VikingShooterEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "VikingShooterEditor Win64 Debug Build",
+			"program": "D:\\Epic Games\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Oyvind_Unreal\\VikingShooter\\VikingShooter.uproject",
+				"-debug"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VikingShooterEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "VikingShooterEditor Win64 DebugGame Build",
+			"program": "D:\\Epic Games\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Oyvind_Unreal\\VikingShooter\\VikingShooter.uproject",
+				"-debug"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VikingShooterEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "VikingShooterEditor Win64 Development Build",
+			"program": "D:\\Epic Games\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Oyvind_Unreal\\VikingShooter\\VikingShooter.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_4.19\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Oyvind_Unreal\\VikingShooter\\VikingShooter.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Epic Games\\UE_4.19"
+		}
+	]
+}

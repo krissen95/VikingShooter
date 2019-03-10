@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/Oyvind_Unreal/VikingShooter/.git": true,
+		"D:/Oyvind_Unreal/VikingShooter/.vscode": true,
+		"D:/Oyvind_Unreal/VikingShooter/Content": true,
+		"D:/Oyvind_Unreal/VikingShooter/Intermediate": true,
+		"D:/Oyvind_Unreal/VikingShooter/Saved": true
+	}
+}
