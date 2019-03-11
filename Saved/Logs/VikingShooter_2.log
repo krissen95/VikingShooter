@@ -1,4 +1,4 @@
-﻿Log file open, 03/11/19 16:10:16
+﻿Log file open, 03/11/19 17:06:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VikingShooter
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1496406096) SRandInit(-1496406096).
+LogInit: Display: RandInit(-884737141) SRandInit(-884737141).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.289548
+LogStats: Stats thread started at 0.302786
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,7 +84,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.269s to configure plugins.
+LogStreaming: Display: Took  0.248s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file ../../../../../Oyvind_Unreal/VikingShooter/Binaries/Win64/UE4Editor-VikingShooter-293.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -220,250 +220,529 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.11-15.10.20:244][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.11-15.10.20:244][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.11-15.10.20:260][  0]LogInit: Computer: OYVIND
-[2019.03.11-15.10.20:260][  0]LogInit: User: øyvind
-[2019.03.11-15.10.20:260][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.11-15.10.20:260][  0]LogInit: High frequency timer resolution =2.742191 MHz
-[2019.03.11-15.10.20:261][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.11-15.10.20:261][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.11-15.10.20:261][  0]LogMemory: Process Physical Memory: 275.31 MB used, 275.31 MB peak
-[2019.03.11-15.10.20:261][  0]LogMemory: Process Virtual Memory: 266.21 MB used, 266.21 MB peak
-[2019.03.11-15.10.20:261][  0]LogMemory: Physical Memory: 8202.88 MB used,  8068.74 MB free, 16271.62 MB total
-[2019.03.11-15.10.20:261][  0]LogMemory: Virtual Memory: 4782.70 MB used,  8068.74 MB free, 134217728.00 MB total
-[2019.03.11-15.10.23:052][  0]LogInit: Using OS detected language (en-US).
-[2019.03.11-15.10.23:052][  0]LogInit: Using OS detected locale (en-US).
-[2019.03.11-15.10.23:059][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.03.11-15.10.23:521][  0]LogStreaming: Display: Took  0.469s to EndInitTextLocalization.
-[2019.03.11-15.10.23:522][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.11-15.10.23:580][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.11-15.10.23:580][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.11-15.10.24:079][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.11-15.10.24:162][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2019.03.11-15.10.24:162][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.03.11-15.10.24:176][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.03.11-15.10.24:176][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.03.11-15.10.24:179][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.11-15.10.24:180][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.11-15.10.24:180][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.11-15.10.24:236][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.11-15.10.24:236][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.11-15.10.24:236][  0]LogWindows: EnumDisplayDevices:
-[2019.03.11-15.10.24:236][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.03.11-15.10.24:236][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.03.11-15.10.24:237][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.03.11-15.10.24:237][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.03.11-15.10.24:237][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.03.11-15.10.24:237][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.03.11-15.10.24:238][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.03.11-15.10.24:238][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.03.11-15.10.24:238][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2019.03.11-15.10.24:238][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.03.11-15.10.24:238][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.03.11-15.10.24:238][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.03.11-15.10.24:289][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.03.11-15.10.24:289][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.03.11-15.10.24:289][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.11-15.10.24:307][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.03.11-15.10.24:309][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../Oyvind_Unreal/VikingShooter/Intermediate/Shaders/WorkingDirectory/28532/).
-[2019.03.11-15.10.24:309][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/øyvind'/AppData/Local/Temp/UnrealShaderWorkingDir/82851E2148032F5A2BDB24882EA9B7A0/'.
-[2019.03.11-15.10.24:652][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.11-15.10.24:667][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.11-15.10.24:680][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.11-15.10.24:694][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.11-15.10.24:708][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.11-15.10.24:722][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.11-15.10.24:737][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.11-15.10.24:751][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.11-15.10.24:758][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.11-15.10.24:772][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.03.11-15.10.24:785][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.03.11-15.10.24:798][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.03.11-15.10.24:812][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.03.11-15.10.24:825][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.03.11-15.10.24:839][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.03.11-15.10.24:867][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.03.11-15.10.24:867][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.03.11-15.10.24:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.11-15.10.24:886][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.11-15.10.24:927][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.11-15.10.24:941][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.11-15.10.24:954][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.11-15.10.24:968][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.11-15.10.24:983][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.11-15.10.25:003][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.11-15.10.25:003][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.11-15.10.25:192][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.11-15.10.25:192][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.11-15.10.25:192][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.11-15.10.26:076][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.11-15.10.26:161][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.03.11-15.10.26:161][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.03.11-15.10.26:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Oyvind_Unreal/VikingShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.11-15.10.26:161][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.11-15.10.26:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Oyvind_Unreal/VikingShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.11-15.10.26:161][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.11-15.10.26:178][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.11-15.10.26:193][  0]LogDerivedDataCache: Using Local data cache path C:/Users/øyvind'/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.11-15.10.26:193][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.11-15.10.26:193][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.11-15.10.26:204][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.11-15.10.26:205][  0]LogSlate: Using Freetype 2.6.0
-[2019.03.11-15.10.26:206][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.11-15.10.26:206][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.11-15.10.26:418][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2019.03.11-15.10.26:815][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.11-15.10.27:005][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.11-15.10.27:008][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.11-15.10.27:008][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.11-15.10.27:008][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.11-15.10.27:009][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.03.11-15.10.27:009][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.03.11-15.10.27:071][  0]LogNetVersion: VikingShooter , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3082558166)
-[2019.03.11-15.10.27:806][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.231389 seconds
-[2019.03.11-15.10.27:812][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.03.11-15.10.27:812][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2019.03.11-15.10.27:812][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.11-15.10.30:262][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.11-15.10.30:313][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.11-15.10.31:072][  0]SourceControl: Source control is disabled
-[2019.03.11-15.10.32:720][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.11-15.10.33:123][  0]LogOcInput: OculusInput pre-init called
-[2019.03.11-15.10.33:296][  0]LogEngine: Initializing Engine...
-[2019.03.11-15.10.33:298][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.11-15.10.33:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.11-15.10.33:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.11-15.10.33:542][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.11-15.10.33:656][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.03.11-15.10.33:996][  0]LogInit: FAudioDevice initialized.
-[2019.03.11-15.10.34:148][  0]LogDerivedDataCache: Saved boot cache 0.15s 74MB C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.03.11-15.10.34:154][  0]LogInit: Texture streaming: Enabled
-[2019.03.11-15.10.34:174][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.11-15.10.34:195][  0]LogInit: Transaction tracking system initialized
-[2019.03.11-15.10.34:221][  0]BlueprintLog: New page: Editor Load
-[2019.03.11-15.10.34:314][  0]LocalizationService: Localization service is disabled
-[2019.03.11-15.10.34:475][  0]LogConsoleResponse: Display: 
-[2019.03.11-15.10.34:682][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.11-15.10.34:682][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.11-15.10.34:682][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.11-15.10.34:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.11-15.10.34:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.11-15.10.35:437][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/' took 0.03s
-[2019.03.11-15.10.35:437][  0]Cmd: MAP LOAD FILE="../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.11-15.10.35:438][  0]LightingResults: New page: Lighting Build
-[2019.03.11-15.10.35:440][  0]MapCheck: New page: Map Check
-[2019.03.11-15.10.35:440][  0]LightingResults: New page: Lighting Build
-[2019.03.11-15.10.35:535][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022516403ba0, Size=40, Default__Harold_Character_BP_C Function /Game/Harold_Model_Files/Harold_Character_BP.Harold_Character_BP_C:ExecuteUbergraph_Harold_Character_BP
-[2019.03.11-15.10.35:537][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022516403ba0, Size=40
-[2019.03.11-15.10.35:537][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022516403ba0, Size=40, Default__Harold_Character_BP_C Function /Engine/Transient.REINST_Harold_Character_BP_C_0:ExecuteUbergraph_Harold_Character_BP
-[2019.03.11-15.10.35:540][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022516403858, Size=40, Default__Harold_Character_BP_C Function /Game/Harold_Model_Files/Harold_Character_BP.Harold_Character_BP_C:ExecuteUbergraph_Harold_Character_BP
-[2019.03.11-15.10.35:549][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251636f200, Size=1632, Default__BP_TwinStickCharacter_C Function /Game/Blueprint/BP_TwinStickCharacter.BP_TwinStickCharacter_C:ExecuteUbergraph_BP_TwinStickCharacter
-[2019.03.11-15.10.35:550][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000225163b8480, Size=224, Default__BP_Spike_C Function /Game/Blueprint/BP_Spike.BP_Spike_C:ExecuteUbergraph_BP_Spike
-[2019.03.11-15.10.35:594][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251700f4c0, Size=296, Default__BP_TwinStickProjectile_C Function /Game/Blueprint/BP_TwinStickProjectile.BP_TwinStickProjectile_C:ExecuteUbergraph_BP_TwinStickProjectile
-[2019.03.11-15.10.35:602][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022516fd3a00, Size=744, Default__EnemyCharacter_C Function /Game/Blueprint/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter
-[2019.03.11-15.10.35:608][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022516392bc0, Size=96, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2019.03.11-15.10.35:610][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251638bc10, Size=112, Default__Weapon_C Function /Game/Blueprint/Weapon.Weapon_C:ExecuteUbergraph_Weapon
-[2019.03.11-15.10.35:611][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022516fa7880, Size=328, Default__Laser_C Function /Game/Blueprint/Laser.Laser_C:ExecuteUbergraph_Laser
-[2019.03.11-15.10.35:617][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000225163926e0, Size=96, Default__EnemyBp_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2019.03.11-15.10.35:684][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022516f30760, Size=96, Default__EnemyBp_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2019.03.11-15.10.35:744][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251638b5f0, Size=104, Default__EnemyAI_C Function /Game/Blueprint/EnemyAI.EnemyAI_C:ExecuteUbergraph_EnemyAI
-[2019.03.11-15.10.35:897][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000225163b8480, Size=224
-[2019.03.11-15.10.35:897][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517504720, Size=224, Default__BP_Spike_C Function /Engine/Transient.REINST_BP_Spike_C_5:ExecuteUbergraph_BP_Spike
-[2019.03.11-15.10.35:897][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251700f4c0, Size=296
-[2019.03.11-15.10.35:897][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000225174e6fc0, Size=296, Default__BP_TwinStickProjectile_C Function /Engine/Transient.REINST_BP_TwinStickProjectile_C_6:ExecuteUbergraph_BP_TwinStickProjectile
-[2019.03.11-15.10.35:898][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022516fa7880, Size=328
-[2019.03.11-15.10.35:898][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517663880, Size=328, Default__Laser_C Function /Engine/Transient.REINST_Laser_C_7:ExecuteUbergraph_Laser
-[2019.03.11-15.10.35:898][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022516392bc0, Size=96
-[2019.03.11-15.10.35:898][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000225174c6500, Size=96, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_1:ExecuteUbergraph_ThirdPerson_AnimBP
-[2019.03.11-15.10.35:898][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251638bc10, Size=112
-[2019.03.11-15.10.35:899][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251638bc10, Size=112, Default__Weapon_C Function /Engine/Transient.REINST_Weapon_C_8:ExecuteUbergraph_Weapon
-[2019.03.11-15.10.35:899][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022516f30760, Size=96
-[2019.03.11-15.10.35:899][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000225174c6320, Size=96, Default__EnemyBp_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_1:ExecuteUbergraph_ThirdPerson_AnimBP
-[2019.03.11-15.10.35:900][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251636f200, Size=1632
-[2019.03.11-15.10.35:900][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251767a400, Size=1632, Default__BP_TwinStickCharacter_C Function /Engine/Transient.REINST_BP_TwinStickCharacter_C_9:ExecuteUbergraph_BP_TwinStickCharacter
-[2019.03.11-15.10.35:900][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251638b5f0, Size=104
-[2019.03.11-15.10.35:900][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251638b5f0, Size=104, Default__EnemyAI_C Function /Engine/Transient.REINST_EnemyAI_C_10:ExecuteUbergraph_EnemyAI
-[2019.03.11-15.10.35:901][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022516fd3a00, Size=744
-[2019.03.11-15.10.35:901][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517668d00, Size=744, Default__EnemyCharacter_C Function /Engine/Transient.REINST_EnemyCharacter_C_11:ExecuteUbergraph_EnemyCharacter
-[2019.03.11-15.10.35:937][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000225178203a0, Size=224, Default__BP_Spike_C Function /Game/Blueprint/BP_Spike.BP_Spike_C:ExecuteUbergraph_BP_Spike
-[2019.03.11-15.10.35:938][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251778a480, Size=296, Default__BP_TwinStickProjectile_C Function /Game/Blueprint/BP_TwinStickProjectile.BP_TwinStickProjectile_C:ExecuteUbergraph_BP_TwinStickProjectile
-[2019.03.11-15.10.35:939][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517bd7280, Size=328, Default__Laser_C Function /Game/Blueprint/Laser.Laser_C:ExecuteUbergraph_Laser
-[2019.03.11-15.10.35:940][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517c29600, Size=96, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2019.03.11-15.10.35:942][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517b6ad30, Size=112, Default__Weapon_C Function /Game/Blueprint/Weapon.Weapon_C:ExecuteUbergraph_Weapon
-[2019.03.11-15.10.35:942][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517c29420, Size=96, Default__EnemyBp_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2019.03.11-15.10.35:947][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517b3a400, Size=1632, Default__BP_TwinStickCharacter_C Function /Game/Blueprint/BP_TwinStickCharacter.BP_TwinStickCharacter_C:ExecuteUbergraph_BP_TwinStickCharacter
-[2019.03.11-15.10.35:949][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517ae7890, Size=104, Default__EnemyAI_C Function /Game/Blueprint/EnemyAI.EnemyAI_C:ExecuteUbergraph_EnemyAI
-[2019.03.11-15.10.35:951][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517aeba00, Size=744, Default__EnemyCharacter_C Function /Game/Blueprint/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter
-[2019.03.11-15.10.36:065][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251768b740, Size=200, Default__BP_PunchableDoor_C Function /Game/Blueprint/BP_PunchableDoor.BP_PunchableDoor_C:ExecuteUbergraph_BP_PunchableDoor
-[2019.03.11-15.10.36:067][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251768b740, Size=200
-[2019.03.11-15.10.36:067][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251e047900, Size=200, Default__BP_PunchableDoor_C Function /Engine/Transient.REINST_BP_PunchableDoor_C_24:ExecuteUbergraph_BP_PunchableDoor
-[2019.03.11-15.10.36:068][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251e046da0, Size=200, Default__BP_PunchableDoor_C Function /Game/Blueprint/BP_PunchableDoor.BP_PunchableDoor_C:ExecuteUbergraph_BP_PunchableDoor
-[2019.03.11-15.10.36:077][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251e046780, Size=200, Default__BP_Rock_C Function /Game/Blueprint/BP_Rock.BP_Rock_C:ExecuteUbergraph_BP_Rock
-[2019.03.11-15.10.36:080][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251e046780, Size=200
-[2019.03.11-15.10.36:080][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251e046780, Size=200, Default__BP_Rock_C Function /Engine/Transient.REINST_BP_Rock_C_26:ExecuteUbergraph_BP_Rock
-[2019.03.11-15.10.36:082][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251e045440, Size=200, Default__BP_Rock_C Function /Game/Blueprint/BP_Rock.BP_Rock_C:ExecuteUbergraph_BP_Rock
-[2019.03.11-15.10.36:085][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251e027ce0, Size=80, Default__EnemySpawner_C Function /Game/Blueprint/EnemySpawner.EnemySpawner_C:ExecuteUbergraph_EnemySpawner
-[2019.03.11-15.10.36:087][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251e027ce0, Size=80
-[2019.03.11-15.10.36:087][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251e027010, Size=80, Default__EnemySpawner_C Function /Engine/Transient.REINST_EnemySpawner_C_28:ExecuteUbergraph_EnemySpawner
-[2019.03.11-15.10.36:089][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002251e025da0, Size=80, Default__EnemySpawner_C Function /Game/Blueprint/EnemySpawner.EnemySpawner_C:ExecuteUbergraph_EnemySpawner
-[2019.03.11-15.10.36:251][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517fe7b00, Size=152, Default__Exploding_Barrel_C Function /Game/Blueprint/Exploding_Barrel.Exploding_Barrel_C:ExecuteUbergraph_Exploding_Barrel
-[2019.03.11-15.10.36:255][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022517fe7b00, Size=152
-[2019.03.11-15.10.36:255][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517fe5080, Size=152, Default__Exploding_Barrel_C Function /Engine/Transient.REINST_Exploding_Barrel_C_30:ExecuteUbergraph_Exploding_Barrel
-[2019.03.11-15.10.36:260][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022517f7f7e0, Size=152, Default__Exploding_Barrel_C Function /Game/Blueprint/Exploding_Barrel.Exploding_Barrel_C:ExecuteUbergraph_Exploding_Barrel
-[2019.03.11-15.10.36:471][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.037856ms] /Game/Harold_Model_Files/Harold_enlarged_idle.Harold_enlarged_idle
-[2019.03.11-15.10.36:568][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [12.270844ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2019.03.11-15.10.36:580][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.411645ms] /Game/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2019.03.11-15.10.36:832][  0]LogAIModule: Creating AISystem for world Level01
-[2019.03.11-15.10.36:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022516403ba0, Size=40
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251767a400, Size=1632
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022517504720, Size=224
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000225174e6fc0, Size=296
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022517668d00, Size=744
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000225174c6500, Size=96
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251638bc10, Size=112
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022517663880, Size=328
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000225174c6320, Size=96
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251638b5f0, Size=104
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251e047900, Size=200
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251e046780, Size=200
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002251e027010, Size=80
-[2019.03.11-15.10.36:881][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022517fe5080, Size=152
-[2019.03.11-15.10.36:883][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.11-15.10.37:033][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.061ms to complete.
-[2019.03.11-15.10.37:033][  0]LogFileHelpers: Loading map 'Level01' took 1.596
-[2019.03.11-15.10.37:200][  0]LogCollectionManager: Loaded 0 collections in 0.002497 seconds
-[2019.03.11-15.10.37:248][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Saved/Collections/' took 0.01s
-[2019.03.11-15.10.37:248][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/Developers/øyvind/Collections/' took 0.01s
-[2019.03.11-15.10.37:248][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/Collections/' took 0.01s
-[2019.03.11-15.10.37:248][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.11-15.10.37:262][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2453 classes and 561 folders.
-[2019.03.11-15.10.37:273][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0035 seconds. Added 0 classes and 0 folders.
-[2019.03.11-15.10.37:413][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
-[2019.03.11-15.10.37:419][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
-[2019.03.11-15.10.38:816][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.03.11-15.10.38:879][  0]LogSlate: Took 0.000443 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.11-15.10.38:886][  0]LogSlate: Took 0.000497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.11-15.10.38:891][  0]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.11-15.10.39:003][  0]LogRenderer: Reallocating scene render targets to support 1300x340 Format 10 NumSamples 1 (Frame:1).
-[2019.03.11-15.10.39:183][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0036 seconds. Added 0 classes and 0 folders.
-[2019.03.11-15.10.39:184][  0]LogLoad: (Engine Initialization) Total time: 25.02 seconds
-[2019.03.11-15.10.39:184][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.11-15.10.39:518][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VikingShooter
-[2019.03.11-15.10.39:518][  0]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2019.03.11-15.10.39:518][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
-[2019.03.11-15.10.39:518][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2019.03.11-15.10.39:518][  0]LogTemp: BranchPath = OYVIND/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = OYVIND/D/Epic Games/UE_4.19/Engine/Binaries
-[2019.03.11-15.10.39:518][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\oyvind'\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.03.11-15.10.39:518][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.03.11-15.10.39:558][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.11-15.10.39:623][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.11-15.10.40:213][  2]LogAssetRegistry: Asset discovery search completed in 13.8185 seconds
-[2019.03.11-15.10.40:216][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.11-15.10.40:216][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000116 seconds (updated 0 objects)
-[2019.03.11-15.10.40:549][  3]LogSlate: Took 0.000443 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.11-15.10.42:791][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-16.06.16:711][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.11-16.06.16:711][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.11-16.06.16:725][  0]LogInit: Computer: OYVIND
+[2019.03.11-16.06.16:725][  0]LogInit: User: øyvind
+[2019.03.11-16.06.16:725][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.11-16.06.16:725][  0]LogInit: High frequency timer resolution =2.742191 MHz
+[2019.03.11-16.06.16:725][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.11-16.06.16:725][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.11-16.06.16:725][  0]LogMemory: Process Physical Memory: 275.09 MB used, 275.09 MB peak
+[2019.03.11-16.06.16:725][  0]LogMemory: Process Virtual Memory: 266.18 MB used, 266.18 MB peak
+[2019.03.11-16.06.16:725][  0]LogMemory: Physical Memory: 7517.38 MB used,  8754.25 MB free, 16271.62 MB total
+[2019.03.11-16.06.16:725][  0]LogMemory: Virtual Memory: 4782.70 MB used,  8754.25 MB free, 134217728.00 MB total
+[2019.03.11-16.06.19:686][  0]LogInit: Using OS detected language (en-US).
+[2019.03.11-16.06.19:686][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.11-16.06.19:694][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.11-16.06.20:205][  0]LogStreaming: Display: Took  0.520s to EndInitTextLocalization.
+[2019.03.11-16.06.20:206][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.11-16.06.20:262][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.11-16.06.20:262][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.11-16.06.20:882][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.11-16.06.20:971][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.03.11-16.06.20:972][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.11-16.06.20:985][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.03.11-16.06.20:985][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.11-16.06.20:988][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.11-16.06.20:988][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.11-16.06.20:988][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.11-16.06.21:053][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.11-16.06.21:053][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.11-16.06.21:053][  0]LogWindows: EnumDisplayDevices:
+[2019.03.11-16.06.21:053][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.03.11-16.06.21:054][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.11-16.06.21:054][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.11-16.06.21:055][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.03.11-16.06.21:055][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.03.11-16.06.21:056][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.03.11-16.06.21:056][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.03.11-16.06.21:056][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.11-16.06.21:056][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.03.11-16.06.21:056][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.11-16.06.21:056][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.11-16.06.21:056][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.11-16.06.21:115][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.11-16.06.21:115][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.11-16.06.21:115][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.11-16.06.21:136][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.11-16.06.21:138][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../Oyvind_Unreal/VikingShooter/Intermediate/Shaders/WorkingDirectory/13256/).
+[2019.03.11-16.06.21:138][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/øyvind'/AppData/Local/Temp/UnrealShaderWorkingDir/359F25564C0E231B9347D882A2B9EA30/'.
+[2019.03.11-16.06.21:553][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.11-16.06.21:572][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.11-16.06.21:589][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.11-16.06.21:607][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.11-16.06.21:624][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.11-16.06.21:643][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.11-16.06.21:661][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.11-16.06.21:677][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.11-16.06.21:686][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.11-16.06.21:699][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.11-16.06.21:714][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.11-16.06.21:734][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.11-16.06.21:751][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.03.11-16.06.21:766][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.11-16.06.21:784][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.11-16.06.21:818][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.11-16.06.21:818][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.11-16.06.21:836][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-16.06.21:839][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.11-16.06.21:883][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.11-16.06.21:896][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.11-16.06.21:912][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.11-16.06.21:928][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.11-16.06.21:946][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.11-16.06.21:963][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.11-16.06.21:963][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.11-16.06.22:194][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.11-16.06.22:194][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.11-16.06.22:194][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.11-16.06.23:061][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.11-16.06.23:156][  0]LogDerivedDataCache: Loaded boot cache 0.10s 74MB C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.11-16.06.23:156][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.03.11-16.06.23:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Oyvind_Unreal/VikingShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.11-16.06.23:156][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.11-16.06.23:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Oyvind_Unreal/VikingShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.11-16.06.23:156][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.11-16.06.23:178][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.11-16.06.23:192][  0]LogDerivedDataCache: Using Local data cache path C:/Users/øyvind'/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.11-16.06.23:192][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.11-16.06.23:192][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.11-16.06.23:203][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.11-16.06.23:203][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.11-16.06.23:205][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.11-16.06.23:205][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.11-16.06.23:445][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
+[2019.03.11-16.06.23:870][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.11-16.06.24:084][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.11-16.06.24:089][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.11-16.06.24:089][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.11-16.06.24:089][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.11-16.06.24:089][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.03.11-16.06.24:089][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.03.11-16.06.24:151][  0]LogNetVersion: VikingShooter , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3082558166)
+[2019.03.11-16.06.24:835][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.208120 seconds
+[2019.03.11-16.06.24:842][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.03.11-16.06.24:842][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.03.11-16.06.24:842][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.11-16.06.27:512][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.11-16.06.27:570][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.11-16.06.28:386][  0]SourceControl: Source control is disabled
+[2019.03.11-16.06.30:255][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.11-16.06.30:731][  0]LogOcInput: OculusInput pre-init called
+[2019.03.11-16.06.30:935][  0]LogEngine: Initializing Engine...
+[2019.03.11-16.06.30:938][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.11-16.06.30:940][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.11-16.06.30:940][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.11-16.06.31:207][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.11-16.06.31:337][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.11-16.06.31:832][  0]LogInit: FAudioDevice initialized.
+[2019.03.11-16.06.31:970][  0]LogDerivedDataCache: Saved boot cache 0.14s 74MB C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.11-16.06.31:983][  0]LogInit: Texture streaming: Enabled
+[2019.03.11-16.06.32:007][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.11-16.06.32:007][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={6EC3F500-4931-D3A2-0036-5FA33B019DC2}
+[2019.03.11-16.06.32:027][  0]LogInit: Transaction tracking system initialized
+[2019.03.11-16.06.32:052][  0]BlueprintLog: New page: Editor Load
+[2019.03.11-16.06.32:151][  0]LocalizationService: Localization service is disabled
+[2019.03.11-16.06.32:325][  0]LogConsoleResponse: Display: 
+[2019.03.11-16.06.32:565][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.11-16.06.32:565][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.11-16.06.32:565][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.11-16.06.32:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.11-16.06.32:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.11-16.06.33:172][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/' took 0.04s
+[2019.03.11-16.06.33:526][  0]Cmd: MAP LOAD FILE="../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.11-16.06.33:527][  0]LightingResults: New page: Lighting Build
+[2019.03.11-16.06.33:531][  0]MapCheck: New page: Map Check
+[2019.03.11-16.06.33:531][  0]LightingResults: New page: Lighting Build
+[2019.03.11-16.06.33:590][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014566e66908, Size=4, Default__Troll01_BP_C Function /Game/Troll01_Files/Troll01_BP.Troll01_BP_C:ExecuteUbergraph_Troll01_BP
+[2019.03.11-16.06.33:592][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014566e66908, Size=4
+[2019.03.11-16.06.33:592][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014566e66908, Size=4, Default__Troll01_BP_C Function /Engine/Transient.REINST_Troll01_BP_C_0:ExecuteUbergraph_Troll01_BP
+[2019.03.11-16.06.33:592][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014566e679b0, Size=4, Default__Troll01_BP_C Function /Game/Troll01_Files/Troll01_BP.Troll01_BP_C:ExecuteUbergraph_Troll01_BP
+[2019.03.11-16.06.33:593][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014566e679b0, Size=4
+[2019.03.11-16.06.33:593][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014566e679b0, Size=4, Default__Troll01_BP_C Function /Engine/Transient.REINST_Troll01_BP_C_2:ExecuteUbergraph_Troll01_BP
+[2019.03.11-16.06.33:596][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454a3bfd80, Size=40, Default__Troll01_BP_C Function /Game/Troll01_Files/Troll01_BP.Troll01_BP_C:ExecuteUbergraph_Troll01_BP
+[2019.03.11-16.06.33:620][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454a3bfc18, Size=40, Default__Harold_Character_BP_C Function /Game/Harold_Model_Files/Harold_Character_BP.Harold_Character_BP_C:ExecuteUbergraph_Harold_Character_BP
+[2019.03.11-16.06.33:623][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454a3bfc18, Size=40
+[2019.03.11-16.06.33:623][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454a3bfc18, Size=40, Default__Harold_Character_BP_C Function /Engine/Transient.REINST_Harold_Character_BP_C_3:ExecuteUbergraph_Harold_Character_BP
+[2019.03.11-16.06.33:626][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454a3bf880, Size=40, Default__Harold_Character_BP_C Function /Game/Harold_Model_Files/Harold_Character_BP.Harold_Character_BP_C:ExecuteUbergraph_Harold_Character_BP
+[2019.03.11-16.06.33:635][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454b0a6400, Size=1632, Default__BP_TwinStickCharacter_C Function /Game/Blueprint/BP_TwinStickCharacter.BP_TwinStickCharacter_C:ExecuteUbergraph_BP_TwinStickCharacter
+[2019.03.11-16.06.33:637][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454b0cd360, Size=224, Default__BP_Spike_C Function /Game/Blueprint/BP_Spike.BP_Spike_C:ExecuteUbergraph_BP_Spike
+[2019.03.11-16.06.33:691][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454ad17240, Size=296, Default__BP_TwinStickProjectile_C Function /Game/Blueprint/BP_TwinStickProjectile.BP_TwinStickProjectile_C:ExecuteUbergraph_BP_TwinStickProjectile
+[2019.03.11-16.06.33:701][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454b074100, Size=744, Default__EnemyCharacter_C Function /Game/Blueprint/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter
+[2019.03.11-16.06.33:706][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454b0be630, Size=112, Default__Weapon_C Function /Game/Blueprint/Weapon.Weapon_C:ExecuteUbergraph_Weapon
+[2019.03.11-16.06.33:708][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454acc9480, Size=328, Default__Laser_C Function /Game/Blueprint/Laser.Laser_C:ExecuteUbergraph_Laser
+[2019.03.11-16.06.33:834][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454b0bdf30, Size=104, Default__EnemyAI_C Function /Game/Blueprint/EnemyAI.EnemyAI_C:ExecuteUbergraph_EnemyAI
+[2019.03.11-16.06.34:008][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454b0cd360, Size=224
+[2019.03.11-16.06.34:008][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f247f20, Size=224, Default__BP_Spike_C Function /Engine/Transient.REINST_BP_Spike_C_6:ExecuteUbergraph_BP_Spike
+[2019.03.11-16.06.34:009][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454ad17240, Size=296
+[2019.03.11-16.06.34:009][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f3982c0, Size=296, Default__BP_TwinStickProjectile_C Function /Engine/Transient.REINST_BP_TwinStickProjectile_C_7:ExecuteUbergraph_BP_TwinStickProjectile
+[2019.03.11-16.06.34:010][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454acc9480, Size=328
+[2019.03.11-16.06.34:010][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f243d00, Size=328, Default__Laser_C Function /Engine/Transient.REINST_Laser_C_8:ExecuteUbergraph_Laser
+[2019.03.11-16.06.34:010][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454b0be630, Size=112
+[2019.03.11-16.06.34:010][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454b0be630, Size=112, Default__Weapon_C Function /Engine/Transient.REINST_Weapon_C_9:ExecuteUbergraph_Weapon
+[2019.03.11-16.06.34:011][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454b0a6400, Size=1632
+[2019.03.11-16.06.34:011][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f22a400, Size=1632, Default__BP_TwinStickCharacter_C Function /Engine/Transient.REINST_BP_TwinStickCharacter_C_10:ExecuteUbergraph_BP_TwinStickCharacter
+[2019.03.11-16.06.34:012][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454b0bdf30, Size=104
+[2019.03.11-16.06.34:012][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454b0bdf30, Size=104, Default__EnemyAI_C Function /Engine/Transient.REINST_EnemyAI_C_11:ExecuteUbergraph_EnemyAI
+[2019.03.11-16.06.34:013][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454b074100, Size=744
+[2019.03.11-16.06.34:013][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f226500, Size=744, Default__EnemyCharacter_C Function /Engine/Transient.REINST_EnemyCharacter_C_12:ExecuteUbergraph_EnemyCharacter
+[2019.03.11-16.06.34:047][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454eee79e0, Size=224, Default__BP_Spike_C Function /Game/Blueprint/BP_Spike.BP_Spike_C:ExecuteUbergraph_BP_Spike
+[2019.03.11-16.06.34:048][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f204e00, Size=296, Default__BP_TwinStickProjectile_C Function /Game/Blueprint/BP_TwinStickProjectile.BP_TwinStickProjectile_C:ExecuteUbergraph_BP_TwinStickProjectile
+[2019.03.11-16.06.34:049][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454eee3b80, Size=328, Default__Laser_C Function /Game/Blueprint/Laser.Laser_C:ExecuteUbergraph_Laser
+[2019.03.11-16.06.34:051][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454eeaab70, Size=112, Default__Weapon_C Function /Game/Blueprint/Weapon.Weapon_C:ExecuteUbergraph_Weapon
+[2019.03.11-16.06.34:056][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454ee95600, Size=1632, Default__BP_TwinStickCharacter_C Function /Game/Blueprint/BP_TwinStickCharacter.BP_TwinStickCharacter_C:ExecuteUbergraph_BP_TwinStickCharacter
+[2019.03.11-16.06.34:059][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454ee1f6d0, Size=104, Default__EnemyAI_C Function /Game/Blueprint/EnemyAI.EnemyAI_C:ExecuteUbergraph_EnemyAI
+[2019.03.11-16.06.34:061][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454ee03a00, Size=744, Default__EnemyCharacter_C Function /Game/Blueprint/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter
+[2019.03.11-16.06.34:182][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f823740, Size=200, Default__BP_PunchableDoor_C Function /Game/Blueprint/BP_PunchableDoor.BP_PunchableDoor_C:ExecuteUbergraph_BP_PunchableDoor
+[2019.03.11-16.06.34:185][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f823740, Size=200
+[2019.03.11-16.06.34:185][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f823740, Size=200, Default__BP_PunchableDoor_C Function /Engine/Transient.REINST_BP_PunchableDoor_C_24:ExecuteUbergraph_BP_PunchableDoor
+[2019.03.11-16.06.34:187][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f822240, Size=200, Default__BP_PunchableDoor_C Function /Game/Blueprint/BP_PunchableDoor.BP_PunchableDoor_C:ExecuteUbergraph_BP_PunchableDoor
+[2019.03.11-16.06.34:197][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f821c20, Size=200, Default__BP_Rock_C Function /Game/Blueprint/BP_Rock.BP_Rock_C:ExecuteUbergraph_BP_Rock
+[2019.03.11-16.06.34:200][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f821c20, Size=200
+[2019.03.11-16.06.34:200][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f821c20, Size=200, Default__BP_Rock_C Function /Engine/Transient.REINST_BP_Rock_C_26:ExecuteUbergraph_BP_Rock
+[2019.03.11-16.06.34:201][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f8208e0, Size=200, Default__BP_Rock_C Function /Game/Blueprint/BP_Rock.BP_Rock_C:ExecuteUbergraph_BP_Rock
+[2019.03.11-16.06.34:206][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f7ebab0, Size=80, Default__EnemySpawner_C Function /Game/Blueprint/EnemySpawner.EnemySpawner_C:ExecuteUbergraph_EnemySpawner
+[2019.03.11-16.06.34:208][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f7ebab0, Size=80
+[2019.03.11-16.06.34:208][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f7ea9d0, Size=80, Default__EnemySpawner_C Function /Engine/Transient.REINST_EnemySpawner_C_28:ExecuteUbergraph_EnemySpawner
+[2019.03.11-16.06.34:210][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001454f7e97b0, Size=80, Default__EnemySpawner_C Function /Game/Blueprint/EnemySpawner.EnemySpawner_C:ExecuteUbergraph_EnemySpawner
+[2019.03.11-16.06.34:383][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000145503ee160, Size=152, Default__Exploding_Barrel_C Function /Game/Blueprint/Exploding_Barrel.Exploding_Barrel_C:ExecuteUbergraph_Exploding_Barrel
+[2019.03.11-16.06.34:389][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000145503ee160, Size=152
+[2019.03.11-16.06.34:389][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014550393420, Size=152, Default__Exploding_Barrel_C Function /Engine/Transient.REINST_Exploding_Barrel_C_30:ExecuteUbergraph_Exploding_Barrel
+[2019.03.11-16.06.34:394][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000014550391e40, Size=152, Default__Exploding_Barrel_C Function /Game/Blueprint/Exploding_Barrel.Exploding_Barrel_C:ExecuteUbergraph_Exploding_Barrel
+[2019.03.11-16.06.34:550][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.356944ms] /Game/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2019.03.11-16.06.34:584][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.812489ms] /Game/Troll01_Files/Troll01_Idle.Troll01_Idle
+[2019.03.11-16.06.34:662][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.124283ms] /Game/Harold_Model_Files/Harold_enlarged_idle.Harold_enlarged_idle
+[2019.03.11-16.06.34:980][  0]LogAIModule: Creating AISystem for world Level01
+[2019.03.11-16.06.35:019][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014566e66908, Size=4
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014566e679b0, Size=4
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454a3bfc18, Size=40
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f22a400, Size=1632
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f247f20, Size=224
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f3982c0, Size=296
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f226500, Size=744
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454b0be630, Size=112
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f243d00, Size=328
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454b0bdf30, Size=104
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f823740, Size=200
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f821c20, Size=200
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001454f7ea9d0, Size=80
+[2019.03.11-16.06.35:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000014550393420, Size=152
+[2019.03.11-16.06.35:037][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.11-16.06.35:178][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 140.942ms to complete.
+[2019.03.11-16.06.35:178][  0]LogFileHelpers: Loading map 'Level01' took 1.652
+[2019.03.11-16.06.35:368][  0]LogCollectionManager: Loaded 0 collections in 0.002627 seconds
+[2019.03.11-16.06.35:419][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Saved/Collections/' took 0.01s
+[2019.03.11-16.06.35:419][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/Developers/øyvind/Collections/' took 0.01s
+[2019.03.11-16.06.35:419][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/Collections/' took 0.01s
+[2019.03.11-16.06.35:419][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.11-16.06.35:442][  0]LogContentBrowser: Native class hierarchy populated in 0.0232 seconds. Added 2453 classes and 561 folders.
+[2019.03.11-16.06.35:454][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2019.03.11-16.06.35:614][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2019.03.11-16.06.35:624][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2019.03.11-16.06.37:151][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.11-16.06.37:224][  0]LogSlate: Took 0.000823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.11-16.06.37:231][  0]LogSlate: Took 0.000697 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.11-16.06.37:236][  0]LogSlate: Took 0.000533 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.11-16.06.37:373][  0]LogRenderer: Reallocating scene render targets to support 1300x340 Format 10 NumSamples 1 (Frame:1).
+[2019.03.11-16.06.37:576][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0050 seconds. Added 0 classes and 0 folders.
+[2019.03.11-16.06.37:577][  0]LogLoad: (Engine Initialization) Total time: 27.86 seconds
+[2019.03.11-16.06.37:577][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.11-16.06.37:595][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.11-16.06.37:633][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.11-16.06.37:706][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VikingShooter
+[2019.03.11-16.06.37:706][  0]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.03.11-16.06.37:706][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2019.03.11-16.06.37:706][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.03.11-16.06.37:706][  0]LogTemp: BranchPath = OYVIND/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = OYVIND/D/Epic Games/UE_4.19/Engine/Binaries
+[2019.03.11-16.06.37:707][  0]LogSlate: Took 0.000490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.11-16.06.37:742][  1]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\oyvind'\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.11-16.06.37:932][  3]LogAssetRegistry: Asset discovery search completed in 14.5094 seconds
+[2019.03.11-16.06.37:937][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.11-16.06.37:937][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2019.03.11-16.06.38:639][ 36]LogSlate: Took 0.001063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.11-16.06.47:300][548]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-16.06.49:732][685]SourceControl: fatal: D:/Epic Games/UE_4.19/Engine/Content: 'D:/Epic Games/UE_4.19/Engine/Content' is outside repository
+[2019.03.11-16.06.50:110][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-16.06.58:528][685]LogSlate: Window 'Submit Files' being destroyed
+[2019.03.11-16.06.58:548][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-16.06.59:016][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-16.07.00:810][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-16.07.04:764][685]LogSourceControl: commit successful: [FailBranch 5a25a11] Spawner fix
+[2019.03.11-16.07.05:304][685]SourceControl: [FailBranch 5a25a11] Spawner fix
+[2019.03.11-16.07.05:304][685]SourceControl:  50 files changed, 0 insertions(+), 0 deletions(-)
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/72ba5bd31cf5c431a9e4f196821fa7a5.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/72ba5bd31cf5c431a9e4f196821fa7a5_Mat.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/9574.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/9574_Mat.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Bonfire_Harold_Js.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder01_Harold_KR.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder02_Harold_KR.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder03_Harold_KR.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder04_Harold_KR.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain02_Harold_Js.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_Harold_Js.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_metall.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_metall1.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitBlack1.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitMetall1.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitWood1.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/MinecartExit_Harold_Js.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Pillar.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Pillar_wood.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/Wheelbarrow_Harold_Js.uasset
+[2019.03.11-16.07.05:304][685]SourceControl:  create mode 100644 Content/3D_Assets/WoodenPillar_Harold_Js.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  rewrite Content/3D_Assets/blinn1.uasset (98%)
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn10.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn11.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  rewrite Content/3D_Assets/blinn2.uasset (98%)
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn8.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn9.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert30.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert31.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert32.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert33.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert34.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert35.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert36.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert37.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert38.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert39.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/photo-1522409640003-31c21bd5e696.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/photo-1522409640003-31c21bd5e696_Mat.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/rock_text.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/rock_text_Mat.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/Blueprint/BP_Enemy_Troll02.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/Blueprint/EnemyTroll01_Character.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/Maps/MineArena.umap
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/Maps/MineArena_BuiltData.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/Maps/minetest.umap
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/Maps/minetest_BuiltData.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/SM_MERGED_Cube_25.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/Troll01_Files/Troll01_BP.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/Troll01_Files/Troll_BS.uasset
+[2019.03.11-16.07.05:305][685]SourceControl: [FailBranch f83ae66] Spawner fix
+[2019.03.11-16.07.05:305][685]SourceControl:  Date: Mon Mar 11 17:07:01 2019 +0100
+[2019.03.11-16.07.05:305][685]SourceControl:  100 files changed, 0 insertions(+), 0 deletions(-)
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/72ba5bd31cf5c431a9e4f196821fa7a5.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/72ba5bd31cf5c431a9e4f196821fa7a5_Mat.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/9574.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/9574_Mat.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/Bonfire_Harold_Js.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder01_Harold_KR.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder02_Harold_KR.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder03_Harold_KR.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder04_Harold_KR.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  rewrite Content/3D_Assets/CageCap_Material.uasset (97%)
+[2019.03.11-16.07.05:305][685]SourceControl:  rewrite Content/3D_Assets/CageMetal_Material.uasset (97%)
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain02_Harold_Js.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_Harold_Js.uasset
+[2019.03.11-16.07.05:305][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_metall.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_metall1.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/DarkMetal.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/Dynamite_Bindings.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitBlack1.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitMetall1.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitWood1.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/LanternGlass.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/LanternMetall.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/LanternMetall_2.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/MinecartExit_Harold_Js.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/Minecart_metalwork.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/Minecart_stuff_Material.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/Pillar.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/Pillar_wood.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/SpadeMetal_material.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/Spade_wood_Material.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/Wheelbarrow_Harold_Js.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/WoodenPillar_Harold_Js.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/blinn1.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn10.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn11.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/blinn2.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/blinn3.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/blinn4.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/blinn5.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/blinn6.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/blinn7.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn8.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn9.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/dynamite_material.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/lambert1.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/lambert18.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/lambert19.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/lambert2.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/lambert20.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/lambert21.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/lambert22.uasset (97%)
+[2019.03.11-16.07.05:306][685]SourceControl:  rewrite Content/3D_Assets/lambert3.uasset (98%)
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert30.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert31.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert32.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert33.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert34.uasset
+[2019.03.11-16.07.05:306][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert35.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert36.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert37.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert38.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert39.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/lambert4.uasset (97%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/lambert5.uasset (97%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/lambert6.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/lambert7.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/lambert8.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/lambert9.uasset (97%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/lightMetal.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/metal_bindings.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/metal_bindings1.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/metalbindings_material.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/metalbindings_material1.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/photo-1522409640003-31c21bd5e696.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/photo-1522409640003-31c21bd5e696_Mat.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/railstopperMetal_Material.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/railstopperWood_Material.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/rock_text.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/rock_text_Mat.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/wheel_material.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/wood.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/wood1.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/wood2.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/3D_Assets/wood_color.uasset (98%)
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/Blueprint/BP_Enemy_Troll02.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/Blueprint/BP_TwinStickGameMode.uasset (89%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/Blueprint/EnemyCharacter.uasset (66%)
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/Blueprint/EnemyTroll01_Character.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/Maps/Level01.umap (77%)
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/Maps/MineArena.umap
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/Maps/MineArena_BuiltData.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/Maps/minetest.umap
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/Maps/minetest_BuiltData.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/SM_MERGED_Cube_25.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/Troll01_Files/Troll01_BP.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/Troll01_Files/Troll_BS.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/Troll01_Files/lambert1.uasset (96%)
+[2019.03.11-16.07.05:307][685]SourceControl:  rewrite Content/Troll01_Files/lambert2.uasset (96%)
+[2019.03.11-16.07.05:307][685]SourceControl: [FailBranch 45081ec] Spawner fix
+[2019.03.11-16.07.05:307][685]SourceControl:  Date: Mon Mar 11 17:07:01 2019 +0100
+[2019.03.11-16.07.05:307][685]SourceControl:  110 files changed, 0 insertions(+), 0 deletions(-)
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/72ba5bd31cf5c431a9e4f196821fa7a5.uasset
+[2019.03.11-16.07.05:307][685]SourceControl:  create mode 100644 Content/3D_Assets/72ba5bd31cf5c431a9e4f196821fa7a5_Mat.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/9574.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/9574_Mat.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Bonfire_Harold_Js.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder01_Harold_KR.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder02_Harold_KR.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder03_Harold_KR.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Boulder04_Harold_KR.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  rewrite Content/3D_Assets/CageCap_Material.uasset (97%)
+[2019.03.11-16.07.05:308][685]SourceControl:  rewrite Content/3D_Assets/CageMetal_Material.uasset (97%)
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain02_Harold_Js.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_Harold_Js.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_metall.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/Chain_metall1.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  rewrite Content/3D_Assets/DarkMetal.uasset (97%)
+[2019.03.11-16.07.05:308][685]SourceControl:  rewrite Content/3D_Assets/Dynamite_Bindings.uasset (98%)
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitBlack1.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitMetall1.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  create mode 100644 Content/3D_Assets/ExitWood1.uasset
+[2019.03.11-16.07.05:308][685]SourceControl:  rewrite Content/3D_Assets/LanternGlass.uasset (98%)
+[2019.03.11-16.07.05:308][685]SourceControl:  rewrite Content/3D_Assets/LanternMetall.uasset (98%)
+[2019.03.11-16.07.05:308][685]SourceControl:  rewrite Content/3D_Assets/LanternMetall_2.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/MinecartExit_Harold_Js.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/Minecart_metalwork.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/Minecart_stuff_Material.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/Pillar.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/Pillar_wood.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/SpadeMetal_material.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/Spade_wood_Material.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/Wheelbarrow_Harold_Js.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/WoodenPillar_Harold_Js.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/blinn1.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn10.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn11.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/blinn2.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/blinn3.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/blinn4.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/blinn5.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/blinn6.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/blinn7.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn8.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/blinn9.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/dynamite_material.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert1.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert18.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert19.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert2.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert20.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert21.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert22.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert3.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert30.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert31.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert32.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert33.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert34.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert35.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert36.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert37.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert38.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/lambert39.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert4.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert5.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert6.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert7.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert8.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lambert9.uasset (97%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/lightMetal.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/metal_bindings.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/metal_bindings1.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/metalbindings_material.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/metalbindings_material1.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/photo-1522409640003-31c21bd5e696.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/photo-1522409640003-31c21bd5e696_Mat.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/railstopperMetal_Material.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/railstopperWood_Material.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/rock_text.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/3D_Assets/rock_text_Mat.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/wheel_material.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/wood.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/wood1.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/wood2.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/3D_Assets/wood_color.uasset (98%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/Blueprint/BP_Enemy_Troll02.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/Blueprint/BP_TwinStickGameMode.uasset (89%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/Blueprint/EnemyCharacter.uasset (66%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/Blueprint/EnemyTroll01_Character.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/Maps/Level01.umap (77%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/Maps/MineArena.umap
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/Maps/MineArena_BuiltData.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/Maps/minetest.umap
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/Maps/minetest_BuiltData.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/SM_MERGED_Cube_25.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/Troll01_Files/Troll01_BP.uasset
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/Troll01_Files/Troll01_Idle_Anim.uasset (74%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/Troll01_Files/Troll01_Idle_PhysicsAsset.uasset (79%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/Troll01_Files/Troll01_Idle_Skeleton.uasset (70%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/Troll01_Files/Troll01_Walk_Anim.uasset (77%)
+[2019.03.11-16.07.05:309][685]SourceControl:  rewrite Content/Troll01_Files/Troll01_Walk_PhysicsAsset.uasset (78%)
+[2019.03.11-16.07.05:309][685]SourceControl:  create mode 100644 Content/Troll01_Files/Troll_BS.uasset
+[2019.03.11-16.07.05:310][685]SourceControl:  rewrite Content/Troll01_Files/lambert1.uasset (96%)
+[2019.03.11-16.07.05:310][685]SourceControl:  rewrite Content/Troll01_Files/lambert2.uasset (96%)
+[2019.03.11-16.07.05:310][685]SourceControl:  rewrite Content/Troll01_Files/lambert3.uasset (96%)
+[2019.03.11-16.07.05:310][685]SourceControl:  rewrite Content/Troll01_Files/lambert4.uasset (96%)
+[2019.03.11-16.07.05:310][685]SourceControl:  rewrite Content/Troll01_Files/lambert5.uasset (96%)
+[2019.03.11-16.07.05:310][685]SourceControl:  rewrite Content/Troll01_Files/lambert6.uasset (96%)
+[2019.03.11-16.07.05:322][685]SourceControl: Commited [FailBranch 5a25a11] Spawner fix.
+[2019.03.11-16.07.08:266][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-16.07.13:764][186]LogSlate: Window 'Message Log' being destroyed
+[2019.03.11-16.07.13:773][186]LogSlate: Window 'Message Log' being destroyed
+[2019.03.11-16.07.14:717][242]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-16.07.15:565][283]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-16.07.17:711][409]LogSlate: Window 'Source Control Login' being destroyed
+[2019.03.11-16.07.19:438][511]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-16.07.20:935][597]SourceControl: fatal: D:/Epic Games/UE_4.19/Engine/Content: 'D:/Epic Games/UE_4.19/Engine/Content' is outside repository
+[2019.03.11-16.07.21:164][597]EditorErrors: Warning: No assets to check in!

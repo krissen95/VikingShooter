@@ -1,0 +1,1417 @@
+﻿Log file open, 03/11/19 16:19:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VikingShooter
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(94919698) SRandInit(94919698).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.285572
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.234s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Oyvind_Unreal/VikingShooter/Binaries/Win64/UE4Editor-VikingShooter-293.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am oyvind (10.31.3.41:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.013s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.11-15.20.00:604][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.11-15.20.00:604][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.11-15.20.00:619][  0]LogInit: Computer: OYVIND
+[2019.03.11-15.20.00:619][  0]LogInit: User: øyvind
+[2019.03.11-15.20.00:619][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.11-15.20.00:619][  0]LogInit: High frequency timer resolution =2.742191 MHz
+[2019.03.11-15.20.00:619][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.11-15.20.00:619][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.11-15.20.00:619][  0]LogMemory: Process Physical Memory: 274.88 MB used, 274.88 MB peak
+[2019.03.11-15.20.00:619][  0]LogMemory: Process Virtual Memory: 266.07 MB used, 266.07 MB peak
+[2019.03.11-15.20.00:619][  0]LogMemory: Physical Memory: 8655.64 MB used,  7615.98 MB free, 16271.62 MB total
+[2019.03.11-15.20.00:619][  0]LogMemory: Virtual Memory: 4782.70 MB used,  7615.98 MB free, 134217728.00 MB total
+[2019.03.11-15.20.03:357][  0]LogInit: Using OS detected language (en-US).
+[2019.03.11-15.20.03:357][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.11-15.20.03:382][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.11-15.20.03:810][  0]LogStreaming: Display: Took  0.454s to EndInitTextLocalization.
+[2019.03.11-15.20.03:810][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.11-15.20.03:849][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.11-15.20.03:850][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.11-15.20.04:354][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.11-15.20.04:440][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.03.11-15.20.04:440][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.11-15.20.04:453][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.03.11-15.20.04:453][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.11-15.20.04:456][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.11-15.20.04:456][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.11-15.20.04:456][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.11-15.20.04:517][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.11-15.20.04:517][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.11-15.20.04:517][  0]LogWindows: EnumDisplayDevices:
+[2019.03.11-15.20.04:518][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.03.11-15.20.04:518][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.11-15.20.04:518][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.11-15.20.04:518][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.03.11-15.20.04:519][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.03.11-15.20.04:519][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.03.11-15.20.04:519][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.03.11-15.20.04:519][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.11-15.20.04:519][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.03.11-15.20.04:519][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.11-15.20.04:519][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.11-15.20.04:519][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.11-15.20.04:569][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.11-15.20.04:569][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.11-15.20.04:569][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.11-15.20.04:589][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.11-15.20.04:590][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../Oyvind_Unreal/VikingShooter/Intermediate/Shaders/WorkingDirectory/128/).
+[2019.03.11-15.20.04:590][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/øyvind'/AppData/Local/Temp/UnrealShaderWorkingDir/4E7E541842FEDB43C1DE988F5C3A69C7/'.
+[2019.03.11-15.20.04:923][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.11-15.20.04:937][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.11-15.20.04:951][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.11-15.20.04:965][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.11-15.20.04:979][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.11-15.20.04:994][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.11-15.20.05:007][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.11-15.20.05:023][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.11-15.20.05:030][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.11-15.20.05:042][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.11-15.20.05:055][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.11-15.20.05:068][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.11-15.20.05:080][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.03.11-15.20.05:095][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.11-15.20.05:108][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.11-15.20.05:134][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.11-15.20.05:134][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.11-15.20.05:147][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-15.20.05:149][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.11-15.20.05:188][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.11-15.20.05:204][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.11-15.20.05:221][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.11-15.20.05:235][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.11-15.20.05:251][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.11-15.20.05:265][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.11-15.20.05:265][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.11-15.20.05:455][  0]LogXGEController: Cleaning working directory: C:/Users/øyvind'/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.11-15.20.05:456][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.11-15.20.05:456][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.11-15.20.05:456][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.11-15.20.06:170][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.11-15.20.06:249][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.11-15.20.06:249][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.03.11-15.20.06:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Oyvind_Unreal/VikingShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.11-15.20.06:249][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.11-15.20.06:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Oyvind_Unreal/VikingShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.11-15.20.06:249][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.11-15.20.06:264][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.11-15.20.06:279][  0]LogDerivedDataCache: Using Local data cache path C:/Users/øyvind'/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.11-15.20.06:279][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.11-15.20.06:279][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.11-15.20.06:290][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.11-15.20.06:291][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.11-15.20.06:292][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.11-15.20.06:292][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.11-15.20.06:493][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2019.03.11-15.20.06:827][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.11-15.20.07:015][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.11-15.20.07:019][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.11-15.20.07:019][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.11-15.20.07:019][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.11-15.20.07:019][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.03.11-15.20.07:019][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.03.11-15.20.07:082][  0]LogNetVersion: VikingShooter , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3082558166)
+[2019.03.11-15.20.07:866][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.282053 seconds
+[2019.03.11-15.20.07:873][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.03.11-15.20.07:873][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.03.11-15.20.07:873][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.11-15.20.10:420][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.11-15.20.10:476][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.11-15.20.11:217][  0]SourceControl: Source control is disabled
+[2019.03.11-15.20.12:855][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.11-15.20.13:266][  0]LogOcInput: OculusInput pre-init called
+[2019.03.11-15.20.13:445][  0]LogEngine: Initializing Engine...
+[2019.03.11-15.20.13:449][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.11-15.20.13:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.11-15.20.13:450][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.11-15.20.13:690][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.11-15.20.13:816][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.11-15.20.14:239][  0]LogInit: FAudioDevice initialized.
+[2019.03.11-15.20.14:367][  0]LogDerivedDataCache: Saved boot cache 0.13s 74MB C:/Users/øyvind'/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.11-15.20.14:379][  0]LogInit: Texture streaming: Enabled
+[2019.03.11-15.20.14:401][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.11-15.20.14:401][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={C457895C-4679-20B7-E5AE-AAAB08FB630E}
+[2019.03.11-15.20.14:422][  0]LogInit: Transaction tracking system initialized
+[2019.03.11-15.20.14:446][  0]BlueprintLog: New page: Editor Load
+[2019.03.11-15.20.14:534][  0]LocalizationService: Localization service is disabled
+[2019.03.11-15.20.14:688][  0]LogConsoleResponse: Display: 
+[2019.03.11-15.20.14:883][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.11-15.20.14:883][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.11-15.20.14:883][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.11-15.20.14:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.11-15.20.14:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.11-15.20.15:488][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/' took 0.03s
+[2019.03.11-15.20.15:633][  0]Cmd: MAP LOAD FILE="../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.11-15.20.15:634][  0]LightingResults: New page: Lighting Build
+[2019.03.11-15.20.15:637][  0]MapCheck: New page: Map Check
+[2019.03.11-15.20.15:637][  0]LightingResults: New page: Lighting Build
+[2019.03.11-15.20.15:725][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016417863ba0, Size=40, Default__Harold_Character_BP_C Function /Game/Harold_Model_Files/Harold_Character_BP.Harold_Character_BP_C:ExecuteUbergraph_Harold_Character_BP
+[2019.03.11-15.20.15:727][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016417863ba0, Size=40
+[2019.03.11-15.20.15:727][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016417863ba0, Size=40, Default__Harold_Character_BP_C Function /Engine/Transient.REINST_Harold_Character_BP_C_0:ExecuteUbergraph_Harold_Character_BP
+[2019.03.11-15.20.15:730][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016417863858, Size=40, Default__Harold_Character_BP_C Function /Game/Harold_Model_Files/Harold_Character_BP.Harold_Character_BP_C:ExecuteUbergraph_Harold_Character_BP
+[2019.03.11-15.20.15:738][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016401fa3200, Size=1632, Default__BP_TwinStickCharacter_C Function /Game/Blueprint/BP_TwinStickCharacter.BP_TwinStickCharacter_C:ExecuteUbergraph_BP_TwinStickCharacter
+[2019.03.11-15.20.15:739][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016401fd48e0, Size=224, Default__BP_Spike_C Function /Game/Blueprint/BP_Spike.BP_Spike_C:ExecuteUbergraph_BP_Spike
+[2019.03.11-15.20.15:785][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164177bf4c0, Size=296, Default__BP_TwinStickProjectile_C Function /Game/Blueprint/BP_TwinStickProjectile.BP_TwinStickProjectile_C:ExecuteUbergraph_BP_TwinStickProjectile
+[2019.03.11-15.20.15:793][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164026e5600, Size=744, Default__EnemyCharacter_C Function /Game/Blueprint/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter
+[2019.03.11-15.20.15:800][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016401fb6bc0, Size=96, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.03.11-15.20.15:802][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016401fafc10, Size=112, Default__Weapon_C Function /Game/Blueprint/Weapon.Weapon_C:ExecuteUbergraph_Weapon
+[2019.03.11-15.20.15:803][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016418481000, Size=328, Default__Laser_C Function /Game/Blueprint/Laser.Laser_C:ExecuteUbergraph_Laser
+[2019.03.11-15.20.15:810][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016401fb66e0, Size=96, Default__EnemyBp_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.03.11-15.20.15:879][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164183e4760, Size=96, Default__EnemyBp_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.03.11-15.20.15:936][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016401faf5f0, Size=104, Default__EnemyAI_C Function /Game/Blueprint/EnemyAI.EnemyAI_C:ExecuteUbergraph_EnemyAI
+[2019.03.11-15.20.16:087][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016401fd48e0, Size=224
+[2019.03.11-15.20.16:087][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b488720, Size=224, Default__BP_Spike_C Function /Engine/Transient.REINST_BP_Spike_C_5:ExecuteUbergraph_BP_Spike
+[2019.03.11-15.20.16:087][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164177bf4c0, Size=296
+[2019.03.11-15.20.16:087][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b4a2fc0, Size=296, Default__BP_TwinStickProjectile_C Function /Engine/Transient.REINST_BP_TwinStickProjectile_C_6:ExecuteUbergraph_BP_TwinStickProjectile
+[2019.03.11-15.20.16:087][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016418481000, Size=328
+[2019.03.11-15.20.16:087][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b0ff580, Size=328, Default__Laser_C Function /Engine/Transient.REINST_Laser_C_7:ExecuteUbergraph_Laser
+[2019.03.11-15.20.16:088][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016401fb6bc0, Size=96
+[2019.03.11-15.20.16:088][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b4c2500, Size=96, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_1:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.03.11-15.20.16:088][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016401fafc10, Size=112
+[2019.03.11-15.20.16:088][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016401fafc10, Size=112, Default__Weapon_C Function /Engine/Transient.REINST_Weapon_C_8:ExecuteUbergraph_Weapon
+[2019.03.11-15.20.16:088][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164183e4760, Size=96
+[2019.03.11-15.20.16:088][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b4c2320, Size=96, Default__EnemyBp_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_1:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.03.11-15.20.16:089][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016401fa3200, Size=1632
+[2019.03.11-15.20.16:089][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b0ea400, Size=1632, Default__BP_TwinStickCharacter_C Function /Engine/Transient.REINST_BP_TwinStickCharacter_C_9:ExecuteUbergraph_BP_TwinStickCharacter
+[2019.03.11-15.20.16:090][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016401faf5f0, Size=104
+[2019.03.11-15.20.16:090][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016401faf5f0, Size=104, Default__EnemyAI_C Function /Engine/Transient.REINST_EnemyAI_C_10:ExecuteUbergraph_EnemyAI
+[2019.03.11-15.20.16:090][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164026e5600, Size=744
+[2019.03.11-15.20.16:090][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b0edf00, Size=744, Default__EnemyCharacter_C Function /Engine/Transient.REINST_EnemyCharacter_C_11:ExecuteUbergraph_EnemyCharacter
+[2019.03.11-15.20.16:123][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641af3c3a0, Size=224, Default__BP_Spike_C Function /Game/Blueprint/BP_Spike.BP_Spike_C:ExecuteUbergraph_BP_Spike
+[2019.03.11-15.20.16:124][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641afe2480, Size=296, Default__BP_TwinStickProjectile_C Function /Game/Blueprint/BP_TwinStickProjectile.BP_TwinStickProjectile_C:ExecuteUbergraph_BP_TwinStickProjectile
+[2019.03.11-15.20.16:125][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641aee2800, Size=328, Default__Laser_C Function /Game/Blueprint/Laser.Laser_C:ExecuteUbergraph_Laser
+[2019.03.11-15.20.16:127][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641af29600, Size=96, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.03.11-15.20.16:128][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641ae62d30, Size=112, Default__Weapon_C Function /Game/Blueprint/Weapon.Weapon_C:ExecuteUbergraph_Weapon
+[2019.03.11-15.20.16:128][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641af29420, Size=96, Default__EnemyBp_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.03.11-15.20.16:132][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641ae26400, Size=1632, Default__BP_TwinStickCharacter_C Function /Game/Blueprint/BP_TwinStickCharacter.BP_TwinStickCharacter_C:ExecuteUbergraph_BP_TwinStickCharacter
+[2019.03.11-15.20.16:134][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641add7890, Size=104, Default__EnemyAI_C Function /Game/Blueprint/EnemyAI.EnemyAI_C:ExecuteUbergraph_EnemyAI
+[2019.03.11-15.20.16:136][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641ade6800, Size=744, Default__EnemyCharacter_C Function /Game/Blueprint/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter
+[2019.03.11-15.20.16:249][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b0db740, Size=200, Default__BP_PunchableDoor_C Function /Game/Blueprint/BP_PunchableDoor.BP_PunchableDoor_C:ExecuteUbergraph_BP_PunchableDoor
+[2019.03.11-15.20.16:251][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b0db740, Size=200
+[2019.03.11-15.20.16:251][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b6c3900, Size=200, Default__BP_PunchableDoor_C Function /Engine/Transient.REINST_BP_PunchableDoor_C_24:ExecuteUbergraph_BP_PunchableDoor
+[2019.03.11-15.20.16:252][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b6c2da0, Size=200, Default__BP_PunchableDoor_C Function /Game/Blueprint/BP_PunchableDoor.BP_PunchableDoor_C:ExecuteUbergraph_BP_PunchableDoor
+[2019.03.11-15.20.16:262][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b6c2780, Size=200, Default__BP_Rock_C Function /Game/Blueprint/BP_Rock.BP_Rock_C:ExecuteUbergraph_BP_Rock
+[2019.03.11-15.20.16:264][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b6c2780, Size=200
+[2019.03.11-15.20.16:264][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b6c2780, Size=200, Default__BP_Rock_C Function /Engine/Transient.REINST_BP_Rock_C_26:ExecuteUbergraph_BP_Rock
+[2019.03.11-15.20.16:265][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b6c1440, Size=200, Default__BP_Rock_C Function /Game/Blueprint/BP_Rock.BP_Rock_C:ExecuteUbergraph_BP_Rock
+[2019.03.11-15.20.16:270][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b74ba60, Size=80, Default__EnemySpawner_C Function /Game/Blueprint/EnemySpawner.EnemySpawner_C:ExecuteUbergraph_EnemySpawner
+[2019.03.11-15.20.16:272][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b74ba60, Size=80
+[2019.03.11-15.20.16:272][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b74ad90, Size=80, Default__EnemySpawner_C Function /Engine/Transient.REINST_EnemySpawner_C_28:ExecuteUbergraph_EnemySpawner
+[2019.03.11-15.20.16:274][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641b749b70, Size=80, Default__EnemySpawner_C Function /Game/Blueprint/EnemySpawner.EnemySpawner_C:ExecuteUbergraph_EnemySpawner
+[2019.03.11-15.20.16:446][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641bd0bb00, Size=152, Default__Exploding_Barrel_C Function /Game/Blueprint/Exploding_Barrel.Exploding_Barrel_C:ExecuteUbergraph_Exploding_Barrel
+[2019.03.11-15.20.16:451][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641bd0bb00, Size=152
+[2019.03.11-15.20.16:451][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641bd09080, Size=152, Default__Exploding_Barrel_C Function /Engine/Transient.REINST_Exploding_Barrel_C_30:ExecuteUbergraph_Exploding_Barrel
+[2019.03.11-15.20.16:455][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001641bca37e0, Size=152, Default__Exploding_Barrel_C Function /Game/Blueprint/Exploding_Barrel.Exploding_Barrel_C:ExecuteUbergraph_Exploding_Barrel
+[2019.03.11-15.20.16:626][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.173514ms] /Game/Harold_Model_Files/Harold_enlarged_idle.Harold_enlarged_idle
+[2019.03.11-15.20.16:738][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [11.546971ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.03.11-15.20.16:750][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.417480ms] /Game/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2019.03.11-15.20.17:024][  0]LogAIModule: Creating AISystem for world Level01
+[2019.03.11-15.20.17:060][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.11-15.20.17:076][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016417863ba0, Size=40
+[2019.03.11-15.20.17:076][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b0ea400, Size=1632
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b488720, Size=224
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b4a2fc0, Size=296
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b0edf00, Size=744
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b4c2500, Size=96
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016401fafc10, Size=112
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b0ff580, Size=328
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b4c2320, Size=96
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016401faf5f0, Size=104
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b6c3900, Size=200
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b6c2780, Size=200
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641b74ad90, Size=80
+[2019.03.11-15.20.17:077][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641bd09080, Size=152
+[2019.03.11-15.20.17:079][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.11-15.20.17:214][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 134.7ms to complete.
+[2019.03.11-15.20.17:214][  0]LogFileHelpers: Loading map 'Level01' took 1.581
+[2019.03.11-15.20.17:382][  0]LogCollectionManager: Loaded 0 collections in 0.002929 seconds
+[2019.03.11-15.20.17:430][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Saved/Collections/' took 0.01s
+[2019.03.11-15.20.17:430][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/Developers/øyvind/Collections/' took 0.01s
+[2019.03.11-15.20.17:431][  0]LogFileCache: Scanning file cache for directory 'D:/Oyvind_Unreal/VikingShooter/Content/Collections/' took 0.01s
+[2019.03.11-15.20.17:431][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.11-15.20.17:449][  0]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2453 classes and 561 folders.
+[2019.03.11-15.20.17:459][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2019.03.11-15.20.17:599][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2019.03.11-15.20.17:606][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2019.03.11-15.20.19:046][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.11-15.20.19:102][  0]LogSlate: Took 0.000511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.11-15.20.19:109][  0]LogSlate: Took 0.000624 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.11-15.20.19:114][  0]LogSlate: Took 0.000482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.11-15.20.19:231][  0]LogRenderer: Reallocating scene render targets to support 1300x340 Format 10 NumSamples 1 (Frame:1).
+[2019.03.11-15.20.19:418][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2019.03.11-15.20.19:418][  0]LogLoad: (Engine Initialization) Total time: 24.94 seconds
+[2019.03.11-15.20.19:418][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.11-15.20.19:761][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VikingShooter
+[2019.03.11-15.20.19:761][  0]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.03.11-15.20.19:761][  0]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2019.03.11-15.20.19:761][  0]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2019.03.11-15.20.19:761][  0]LogTemp: BranchPath = OYVIND/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = OYVIND/D/Epic Games/UE_4.19/Engine/Binaries
+[2019.03.11-15.20.19:761][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\oyvind'\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.11-15.20.19:793][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.11-15.20.19:855][  0]LogSlate: Took 0.000523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.11-15.20.21:779][  6]LogAssetRegistry: Asset discovery search completed in 15.3084 seconds
+[2019.03.11-15.20.21:782][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.11-15.20.21:782][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2019.03.11-15.20.26:481][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.20.26:563][375]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.11-15.20.26:584][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.11-15.20.26:585][375]PIE: New page: PIE session: Level01 (Mar 11, 2019, 5:20:26 PM)
+[2019.03.11-15.20.26:585][375]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level01
+[2019.03.11-15.20.26:591][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006182s)
+[2019.03.11-15.20.26:592][375]LogAIModule: Creating AISystem for world Level01
+[2019.03.11-15.20.26:592][375]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2019.03.11-15.20.26:592][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level01.Level01 to /Game/Maps/UEDPIE_0_Level01.Level01 (0.007095s)
+[2019.03.11-15.20.26:650][375]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.11-15.20.26:792][375]LogInit: FAudioDevice initialized.
+[2019.03.11-15.20.26:860][375]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164aef54100, Size=1104, Default__BP_Harold_Character_C Function /Game/Blueprint/BP_Harold_Character.BP_Harold_Character_C:ExecuteUbergraph_BP_Harold_Character
+[2019.03.11-15.20.26:875][375]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164aef54100, Size=1104
+[2019.03.11-15.20.26:875][375]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164aeee3200, Size=1104, Default__BP_Harold_Character_C Function /Engine/Transient.REINST_BP_Harold_Character_C_32:ExecuteUbergraph_BP_Harold_Character
+[2019.03.11-15.20.26:889][375]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164aee12400, Size=1104, Default__BP_Harold_Character_C Function /Game/Blueprint/BP_Harold_Character.BP_Harold_Character_C:ExecuteUbergraph_BP_Harold_Character
+[2019.03.11-15.20.26:906][375]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164aee93238, Size=24, Default__BP_TwinStickGameMode_C Function /Game/Blueprint/BP_TwinStickGameMode.BP_TwinStickGameMode_C:ExecuteUbergraph_BP_TwinStickGameMode
+[2019.03.11-15.20.26:908][375]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164aee93238, Size=24
+[2019.03.11-15.20.26:908][375]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164aee93238, Size=24, Default__BP_TwinStickGameMode_C Function /Engine/Transient.REINST_BP_TwinStickGameMode_C_35:ExecuteUbergraph_BP_TwinStickGameMode
+[2019.03.11-15.20.26:909][375]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164aee92d70, Size=24, Default__BP_TwinStickGameMode_C Function /Game/Blueprint/BP_TwinStickGameMode.BP_TwinStickGameMode_C:ExecuteUbergraph_BP_TwinStickGameMode
+[2019.03.11-15.20.26:953][375]LogLoad: Game class is 'BP_TwinStickGameMode_C'
+[2019.03.11-15.20.26:960][375]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2019.03.11-16.20.26
+[2019.03.11-15.20.26:962][375]LogWorld: Bringing up level for play took: 0.007788
+[2019.03.11-15.20.26:968][375]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2019.03.11-15.20.26:972][375]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level01 0.99
+[2019.03.11-15.20.29:349][633]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164aee93238, Size=24
+[2019.03.11-15.20.29:349][633]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164aeee3200, Size=1104
+[2019.03.11-15.20.30:402][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.20.30:448][741]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164a1f5d500, Size=240, Default__EnemyTroll01_Character_C Function /Game/Blueprint/EnemyTroll01_Character.EnemyTroll01_Character_C:ExecuteUbergraph_EnemyTroll01_Character
+[2019.03.11-15.20.30:467][741]LogBlueprint: Warning: [Compiler EnemyTroll01_Character] Get : 'isDead' variable not found. Base class was probably changed. /Game/Blueprint/EnemyTroll01_Character.EnemyTroll01_Character
+[2019.03.11-15.20.30:468][741]LogBlueprint: Warning: [Compiler EnemyTroll01_Character] Get : 'Health' variable not found. Base class was probably changed. /Game/Blueprint/EnemyTroll01_Character.EnemyTroll01_Character
+[2019.03.11-15.20.30:468][741]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164a1f5d500, Size=240
+[2019.03.11-15.20.30:468][741]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164a1f5d500, Size=240, Default__EnemyTroll01_Character_C Function /Engine/Transient.REINST_EnemyTroll01_Character_C_37:ExecuteUbergraph_EnemyTroll01_Character
+[2019.03.11-15.20.30:472][741]LogBlueprint: Warning: [Compiler EnemyTroll01_Character] Could not find a variable named "Health" in 'EnemyTroll01_Character_C'.
+Make sure 'EnemyTroll01_Character_C' has been compiled for  Get Health
+[2019.03.11-15.20.30:472][741]LogBlueprint: Warning: [Compiler EnemyTroll01_Character] Could not find a variable named "isDead" in 'EnemyTroll01_Character_C'.
+Make sure 'EnemyTroll01_Character_C' has been compiled for  Get isDead
+[2019.03.11-15.20.30:483][741]LogBlueprint: Error: [Compiler EnemyTroll01_Character] In use pin  <Unnamed>  no longer exists on node  Calculate Health . Please refresh node or break links to remove pin.
+[2019.03.11-15.20.30:483][741]LogBlueprint: Error: [Compiler EnemyTroll01_Character] In use pin  <Unnamed>  no longer exists on node  Calculate Health . Please refresh node or break links to remove pin.
+[2019.03.11-15.20.30:483][741]LogBlueprint: Error: [Compiler EnemyTroll01_Character] In use pin  Delta  no longer exists on node  Calculate Health . Please refresh node or break links to remove pin.
+[2019.03.11-15.20.30:483][741]LogBlueprint: Error: [Compiler EnemyTroll01_Character] Could not find a function named "CalculateHealth" in 'EnemyTroll01_Character_C'.
+Make sure 'EnemyTroll01_Character_C' has been compiled for  Calculate Health
+[2019.03.11-15.20.30:484][741]LogBlueprint: Error: [Compiler EnemyTroll01_Character] The property associated with  Is Dead  could not be found
+[2019.03.11-15.20.30:484][741]LogBlueprint: Error: [Compiler EnemyTroll01_Character] The property associated with  Health  could not be found
+[2019.03.11-15.20.30:485][741]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164aee2da00, Size=240, Default__EnemyTroll01_Character_C Function /Game/Blueprint/EnemyTroll01_Character.EnemyTroll01_Character_C:ExecuteUbergraph_EnemyTroll01_Character
+[2019.03.11-15.20.30:486][741]LogBlueprint: Warning: [Compiler EnemyTroll01_Character] [0036.01] Compile of EnemyTroll01_Character failed. 6 Fatal Issue(s) 4 Warning(s) [in 35 ms] (/Game/Blueprint/EnemyTroll01_Character.EnemyTroll01_Character)
+[2019.03.11-15.20.30:492][741]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2019.03.11-15.20.30:547][741]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2019.03.11-15.20.30:574][741]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.11-15.20.30:574][741]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.11-15.20.30:574][741]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.11-15.20.30:574][741]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.11-15.20.30:574][741]LogMaterial: Missing cached shader map for material lambert4, compiling. 
+[2019.03.11-15.20.30:596][741]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2019.03.11-15.20.30:615][741]LogSkeletalMesh: Building Skeletal Mesh Troll01_Idle...
+[2019.03.11-15.20.30:617][741]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Troll01_Files/Troll01_Idle.Troll01_Idle
+[2019.03.11-15.20.30:619][741]LogMaterial: Missing cached shader map for material lambert6, compiling. 
+[2019.03.11-15.20.30:643][741]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2019.03.11-15.20.33:391][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.20.34:312][943]LogShaderCompilers: Display: Shaders left to compile 320
+[2019.03.11-15.20.34:984][981]LogShaderCompilers: Display: Shaders left to compile 310
+[2019.03.11-15.20.35:250][997]LogSlate: Took 0.000540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.11-15.20.35:298][997]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164ba9b6480, Size=40, Default__BP_Troll02_C Function /Game/Troll02_Model_Files/BP_Troll02.BP_Troll02_C:ExecuteUbergraph_BP_Troll02
+[2019.03.11-15.20.35:302][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164ba9b6480, Size=40
+[2019.03.11-15.20.35:302][997]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164ba9b6480, Size=40, Default__BP_Troll02_C Function /Engine/Transient.REINST_BP_Troll02_C_3:ExecuteUbergraph_BP_Troll02
+[2019.03.11-15.20.35:307][997]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164ba9b6f98, Size=40, Default__BP_Troll02_C Function /Game/Troll02_Model_Files/BP_Troll02.BP_Troll02_C:ExecuteUbergraph_BP_Troll02
+[2019.03.11-15.20.35:335][997]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164baaa4900, Size=240, Default__BP_Enemy_Troll02_C Function /Game/Blueprint/BP_Enemy_Troll02.BP_Enemy_Troll02_C:ExecuteUbergraph_BP_Enemy_Troll02
+[2019.03.11-15.20.35:344][997]LogBlueprint: Warning: [Compiler BP_Enemy_Troll02] Get : 'isDead' variable not found. Base class was probably changed. /Game/Blueprint/BP_Enemy_Troll02.BP_Enemy_Troll02
+[2019.03.11-15.20.35:344][997]LogBlueprint: Warning: [Compiler BP_Enemy_Troll02] Get : 'Health' variable not found. Base class was probably changed. /Game/Blueprint/BP_Enemy_Troll02.BP_Enemy_Troll02
+[2019.03.11-15.20.35:345][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164baaa4900, Size=240
+[2019.03.11-15.20.35:345][997]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164baaa4900, Size=240, Default__BP_Enemy_Troll02_C Function /Engine/Transient.REINST_BP_Enemy_Troll02_C_40:ExecuteUbergraph_BP_Enemy_Troll02
+[2019.03.11-15.20.35:349][997]LogBlueprint: Warning: [Compiler BP_Enemy_Troll02] Could not find a variable named "Health" in 'BP_Enemy_Troll02_C'.
+Make sure 'BP_Enemy_Troll02_C' has been compiled for  Get Health
+[2019.03.11-15.20.35:350][997]LogBlueprint: Warning: [Compiler BP_Enemy_Troll02] Could not find a variable named "isDead" in 'BP_Enemy_Troll02_C'.
+Make sure 'BP_Enemy_Troll02_C' has been compiled for  Get isDead
+[2019.03.11-15.20.35:350][997]LogBlueprint: Error: [Compiler BP_Enemy_Troll02] In use pin  <Unnamed>  no longer exists on node  Calculate Health . Please refresh node or break links to remove pin.
+[2019.03.11-15.20.35:350][997]LogBlueprint: Error: [Compiler BP_Enemy_Troll02] In use pin  <Unnamed>  no longer exists on node  Calculate Health . Please refresh node or break links to remove pin.
+[2019.03.11-15.20.35:350][997]LogBlueprint: Error: [Compiler BP_Enemy_Troll02] In use pin  Delta  no longer exists on node  Calculate Health . Please refresh node or break links to remove pin.
+[2019.03.11-15.20.35:350][997]LogBlueprint: Error: [Compiler BP_Enemy_Troll02] Could not find a function named "CalculateHealth" in 'BP_Enemy_Troll02_C'.
+Make sure 'BP_Enemy_Troll02_C' has been compiled for  Calculate Health
+[2019.03.11-15.20.35:352][997]LogBlueprint: Error: [Compiler BP_Enemy_Troll02] The property associated with  Is Dead  could not be found
+[2019.03.11-15.20.35:352][997]LogBlueprint: Error: [Compiler BP_Enemy_Troll02] The property associated with  Health  could not be found
+[2019.03.11-15.20.35:353][997]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164049d0300, Size=240, Default__BP_Enemy_Troll02_C Function /Game/Blueprint/BP_Enemy_Troll02.BP_Enemy_Troll02_C:ExecuteUbergraph_BP_Enemy_Troll02
+[2019.03.11-15.20.35:358][997]LogBlueprint: Warning: [Compiler BP_Enemy_Troll02] [0040.88] Compile of BP_Enemy_Troll02 failed. 6 Fatal Issue(s) 4 Warning(s) [in 16 ms] (/Game/Blueprint/BP_Enemy_Troll02.BP_Enemy_Troll02)
+[2019.03.11-15.20.35:888][997]LogShaderCompilers: Display: Shaders left to compile 300
+[2019.03.11-15.20.35:888][997]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2019.03.11-15.20.35:888][997]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2019.03.11-15.20.35:888][997]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2019.03.11-15.20.35:888][997]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2019.03.11-15.20.35:888][997]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.03.11-15.20.35:888][997]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.03.11-15.20.35:888][997]LogShaderCompilers: Display: Shaders left to compile 290
+[2019.03.11-15.20.35:889][997]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256)
+[2019.03.11-15.20.35:889][997]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2019.03.11-15.20.37:112][997]LogTexture: Display: Building textures: 72ba5bd31cf5c431a9e4f196821fa7a5 (AutoDXT, 512X512)
+[2019.03.11-15.20.37:112][997]LogTexture: Display: Building textures: 9574 (AutoDXT, 512X512)
+[2019.03.11-15.20.37:112][997]LogTexture: Display: Building textures: rock_text (BGRA8, 225X225)
+[2019.03.11-15.20.37:112][997]LogTexture: Display: Building textures: photo-1522409640003-31c21bd5e696 (BGRA8, 1000X667)
+[2019.03.11-15.20.37:118][997]LogMaterial: Missing cached shader map for material 9574_Mat, compiling. 
+[2019.03.11-15.20.37:222][997]LogMaterial: Missing cached shader map for material railstopperWood_Material, compiling. 
+[2019.03.11-15.20.37:241][997]LogStaticMesh: Building static mesh RailStraight_Harold_KR_pCube4...
+[2019.03.11-15.20.37:293][997]LogStaticMesh: Built static mesh [0.05s] /Game/3D_Assets/RailStraight_Harold_KR_pCube4.RailStraight_Harold_KR_pCube4
+[2019.03.11-15.20.37:325][997]LogMaterial: Missing cached shader map for material railstopperMetal_Material, compiling. 
+[2019.03.11-15.20.37:348][997]LogMaterial: Missing cached shader map for material blinn6, compiling. 
+[2019.03.11-15.20.37:365][997]LogStaticMesh: Building static mesh Shotgun_Harold_Js_pCylinder4...
+[2019.03.11-15.20.37:430][997]LogStaticMesh: Built static mesh [0.06s] /Game/3D_Assets/Shotgun_Harold_Js_pCylinder4.Shotgun_Harold_Js_pCylinder4
+[2019.03.11-15.20.37:438][997]LogMaterial: Missing cached shader map for material lambert7, compiling. 
+[2019.03.11-15.20.37:470][997]LogSkeletalMesh: Building Skeletal Mesh Troll02_Idle_Anim...
+[2019.03.11-15.20.37:473][997]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Troll02_Model_Files/Troll02_Idle_Anim.Troll02_Idle_Anim
+[2019.03.11-15.20.37:475][997]LogMaterial: Missing cached shader map for material goblinskin, compiling. 
+[2019.03.11-15.20.37:514][997]LogMaterial: Missing cached shader map for material wood2, compiling. 
+[2019.03.11-15.20.37:537][997]LogMaterial: Missing cached shader map for material metalbindings_material1, compiling. 
+[2019.03.11-15.20.37:560][997]LogMaterial: Missing cached shader map for material rock_text_Mat, compiling. 
+[2019.03.11-15.20.37:583][997]LogMaterial: Missing cached shader map for material CageMetal_Material, compiling. 
+[2019.03.11-15.20.37:607][997]LogMaterial: Missing cached shader map for material photo-1522409640003-31c21bd5e696_Mat, compiling. 
+[2019.03.11-15.20.37:673][997]LogStaticMesh: Building static mesh Ammocrate_Harold_Js...
+[2019.03.11-15.20.37:716][997]LogStaticMesh: Built static mesh [0.04s] /Game/3D_Assets/Ammocrate_Harold_Js.Ammocrate_Harold_Js
+[2019.03.11-15.20.37:722][997]LogMaterial: Missing cached shader map for material blinn1, compiling. 
+[2019.03.11-15.20.37:739][997]LogStaticMesh: Building static mesh Axerifle_Harold_KR...
+[2019.03.11-15.20.37:758][997]LogStaticMesh: Built static mesh [0.02s] /Game/3D_Assets/Axerifle_Harold_KR.Axerifle_Harold_KR
+[2019.03.11-15.20.37:764][997]LogMaterial: Missing cached shader map for material blinn4, compiling. 
+[2019.03.11-15.20.37:784][997]LogMaterial: Missing cached shader map for material DarkMetal, compiling. 
+[2019.03.11-15.20.37:802][997]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2019.03.11-15.20.37:819][997]LogStaticMesh: Building static mesh Bonfire_Harold_Js...
+[2019.03.11-15.20.37:838][997]LogStaticMesh: Built static mesh [0.02s] /Game/3D_Assets/Bonfire_Harold_Js.Bonfire_Harold_Js
+[2019.03.11-15.20.37:844][997]LogMaterial: Missing cached shader map for material lambert35, compiling. 
+[2019.03.11-15.20.37:865][997]LogMaterial: Missing cached shader map for material lambert36, compiling. 
+[2019.03.11-15.20.37:879][997]LogStaticMesh: Building static mesh Boulder01_Harold_KR...
+[2019.03.11-15.20.37:882][997]LogStaticMesh: Built static mesh [0.00s] /Game/3D_Assets/Boulder01_Harold_KR.Boulder01_Harold_KR
+[2019.03.11-15.20.37:888][997]LogMaterial: Missing cached shader map for material lambert37, compiling. 
+[2019.03.11-15.20.37:903][997]LogShaderCompilers: Display: Shaders left to compile 865
+[2019.03.11-15.20.37:903][997]LogStaticMesh: Building static mesh Boulder02_Harold_KR...
+[2019.03.11-15.20.37:906][997]LogStaticMesh: Built static mesh [0.00s] /Game/3D_Assets/Boulder02_Harold_KR.Boulder02_Harold_KR
+[2019.03.11-15.20.37:908][997]LogStaticMesh: Building static mesh Boulder03_Harold_KR...
+[2019.03.11-15.20.37:912][997]LogStaticMesh: Built static mesh [0.00s] /Game/3D_Assets/Boulder03_Harold_KR.Boulder03_Harold_KR
+[2019.03.11-15.20.37:918][997]LogMaterial: Missing cached shader map for material Chain_metall1, compiling. 
+[2019.03.11-15.20.37:931][997]LogStaticMesh: Building static mesh Chain02_Harold_Js...
+[2019.03.11-15.20.37:972][997]LogStaticMesh: Built static mesh [0.04s] /Game/3D_Assets/Chain02_Harold_Js.Chain02_Harold_Js
+[2019.03.11-15.20.37:980][997]LogStaticMesh: Building static mesh Chain_Harold_Js...
+[2019.03.11-15.20.38:712][997]LogStaticMesh: Built static mesh [0.73s] /Game/3D_Assets/Chain_Harold_Js.Chain_Harold_Js
+[2019.03.11-15.20.38:745][997]LogMaterial: Missing cached shader map for material blinn10, compiling. 
+[2019.03.11-15.20.38:757][997]LogStaticMesh: Building static mesh Boulder04_Harold_KR...
+[2019.03.11-15.20.38:759][997]LogStaticMesh: Built static mesh [0.00s] /Game/3D_Assets/Boulder04_Harold_KR.Boulder04_Harold_KR
+[2019.03.11-15.20.38:765][997]LogMaterial: Missing cached shader map for material lambert7, compiling. 
+[2019.03.11-15.20.38:804][997]LogStaticMesh: Building static mesh Door_Harold_KR_polySurface2...
+[2019.03.11-15.20.38:820][997]LogStaticMesh: Built static mesh [0.02s] /Game/3D_Assets/Door_Harold_KR_polySurface2.Door_Harold_KR_polySurface2
+[2019.03.11-15.20.38:827][997]LogMaterial: Missing cached shader map for material lambert8, compiling. 
+[2019.03.11-15.20.38:845][997]LogMaterial: Missing cached shader map for material lambert9, compiling. 
+[2019.03.11-15.20.38:865][997]LogMaterial: Missing cached shader map for material metal_bindings1, compiling. 
+[2019.03.11-15.20.38:883][997]LogStaticMesh: Building static mesh Lantern_Harold_Js_pCylinder9...
+[2019.03.11-15.20.38:921][997]LogStaticMesh: Built static mesh [0.04s] /Game/3D_Assets/Lantern_Harold_Js_pCylinder9.Lantern_Harold_Js_pCylinder9
+[2019.03.11-15.20.38:932][997]LogMaterial: Missing cached shader map for material dynamite_material, compiling. 
+[2019.03.11-15.20.38:951][997]LogStaticMesh: Building static mesh dynamite_Harold_KR_polySurface6...
+[2019.03.11-15.20.38:961][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/dynamite_Harold_KR_polySurface6.dynamite_Harold_KR_polySurface6
+[2019.03.11-15.20.38:967][997]LogMaterial: Missing cached shader map for material Dynamite_Bindings, compiling. 
+[2019.03.11-15.20.38:988][997]LogMaterial: Missing cached shader map for material LanternGlass, compiling. 
+[2019.03.11-15.20.39:005][997]LogMaterial: Missing cached shader map for material wheel_material, compiling. 
+[2019.03.11-15.20.39:025][997]LogMaterial: Missing cached shader map for material lambert18, compiling. 
+[2019.03.11-15.20.39:045][997]LogMaterial: Missing cached shader map for material Minecart_metalwork, compiling. 
+[2019.03.11-15.20.39:062][997]LogMaterial: Missing cached shader map for material lambert19, compiling. 
+[2019.03.11-15.20.39:079][997]LogMaterial: Missing cached shader map for material Minecart_stuff_Material, compiling. 
+[2019.03.11-15.20.39:097][997]LogMaterial: Missing cached shader map for material ExitBlack1, compiling. 
+[2019.03.11-15.20.39:116][997]LogMaterial: Missing cached shader map for material ExitWood1, compiling. 
+[2019.03.11-15.20.39:134][997]LogShaderCompilers: Display: Shaders left to compile 1371
+[2019.03.11-15.20.39:149][997]LogMaterial: Missing cached shader map for material wood, compiling. 
+[2019.03.11-15.20.39:167][997]LogStaticMesh: Building static mesh MinecartExit_Harold_Js...
+[2019.03.11-15.20.39:181][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/MinecartExit_Harold_Js.MinecartExit_Harold_Js
+[2019.03.11-15.20.39:187][997]LogMaterial: Missing cached shader map for material ExitMetall1, compiling. 
+[2019.03.11-15.20.39:213][997]LogMaterial: Missing cached shader map for material SpadeMetal_material, compiling. 
+[2019.03.11-15.20.39:228][997]LogStaticMesh: Building static mesh spade_Harold_KR_pCylinder3...
+[2019.03.11-15.20.39:236][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/spade_Harold_KR_pCylinder3.spade_Harold_KR_pCylinder3
+[2019.03.11-15.20.39:241][997]LogMaterial: Missing cached shader map for material Spade_wood_Material, compiling. 
+[2019.03.11-15.20.39:258][997]LogStaticMesh: Building static mesh Wheelbarrow_Harold_Js...
+[2019.03.11-15.20.39:301][997]LogStaticMesh: Built static mesh [0.04s] /Game/3D_Assets/Wheelbarrow_Harold_Js.Wheelbarrow_Harold_Js
+[2019.03.11-15.20.39:308][997]LogMaterial: Missing cached shader map for material lambert39, compiling. 
+[2019.03.11-15.20.39:323][997]LogStaticMesh: Building static mesh WoodenPillar_Harold_Js...
+[2019.03.11-15.20.39:326][997]LogStaticMesh: Built static mesh [0.00s] /Game/3D_Assets/WoodenPillar_Harold_Js.WoodenPillar_Harold_Js
+[2019.03.11-15.20.39:330][997]LogMaterial: Missing cached shader map for material blinn11, compiling. 
+[2019.03.11-15.20.39:351][997]LogMaterial: Missing cached shader map for material lambert38, compiling. 
+[2019.03.11-15.20.39:369][997]LogMaterial: Missing cached shader map for material Pillar, compiling. 
+[2019.03.11-15.20.39:384][997]LogMaterial: Missing cached shader map for material Pillar_wood, compiling. 
+[2019.03.11-15.20.39:393][997]LogStaticMesh: Building static mesh railstopper_Harold_KR_pCube1...
+[2019.03.11-15.20.39:401][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/railstopper_Harold_KR_pCube1.railstopper_Harold_KR_pCube1
+[2019.03.11-15.20.39:406][997]LogMaterial: Missing cached shader map for material metalbindings_material, compiling. 
+[2019.03.11-15.20.39:426][997]LogMaterial: Missing cached shader map for material wood1, compiling. 
+[2019.03.11-15.20.39:443][997]LogMaterial: Missing cached shader map for material lambert4, compiling. 
+[2019.03.11-15.20.39:461][997]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2019.03.11-15.20.39:478][997]LogMaterial: Missing cached shader map for material lightMetal, compiling. 
+[2019.03.11-15.20.39:491][997]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Troll02_Model_Files/Troll02_Walking_Anim_Anim_mixamo_com.Troll02_Walking_Anim_Anim_mixamo_com
+[2019.03.11-15.20.39:543][997]LogShaderCompilers: Display: Shaders left to compile 1817
+[2019.03.11-15.20.39:543][997]LogAnimationCompression: Recompressing (AnimSequence /Game/Troll02_Model_Files/Troll02_Walking_Anim_Anim_mixamo_com.Troll02_Walking_Anim_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.11-15.20.39:578][997]LogMaterial: Missing cached shader map for material wood_color, compiling. 
+[2019.03.11-15.20.39:598][997]LogMaterial: Missing cached shader map for material metal_bindings, compiling. 
+[2019.03.11-15.20.39:621][997]LogStaticMesh: Building static mesh RailCurved_Harold_KR_pCube5...
+[2019.03.11-15.20.39:628][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/RailCurved_Harold_KR_pCube5.RailCurved_Harold_KR_pCube5
+[2019.03.11-15.20.39:635][997]LogMaterial: Missing cached shader map for material blinn5, compiling. 
+[2019.03.11-15.20.39:654][997]LogMaterial: Missing cached shader map for material lambert21, compiling. 
+[2019.03.11-15.20.39:675][997]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2019.03.11-15.20.39:692][997]LogStaticMesh: Building static mesh Barrel_Harold_KR...
+[2019.03.11-15.20.39:725][997]LogStaticMesh: Built static mesh [0.03s] /Game/3D_Assets/Barrel_Harold_KR.Barrel_Harold_KR
+[2019.03.11-15.20.39:732][997]LogMaterial: Missing cached shader map for material 72ba5bd31cf5c431a9e4f196821fa7a5_Mat, compiling. 
+[2019.03.11-15.20.39:750][997]LogMaterial: Missing cached shader map for material lambert20, compiling. 
+[2019.03.11-15.20.39:764][997]LogStaticMesh: Building static mesh Mushroom_Harold_KR_pCylinder3...
+[2019.03.11-15.20.39:817][997]LogStaticMesh: Built static mesh [0.05s] /Game/3D_Assets/Mushroom_Harold_KR_pCylinder3.Mushroom_Harold_KR_pCylinder3
+[2019.03.11-15.20.39:821][997]LogStaticMesh: Building static mesh Pickaxe_Harold_Js_pCylinder1...
+[2019.03.11-15.20.39:832][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/Pickaxe_Harold_Js_pCylinder1.Pickaxe_Harold_Js_pCylinder1
+[2019.03.11-15.20.39:838][997]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2019.03.11-15.20.39:865][997]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2019.03.11-15.20.39:897][997]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2019.03.11-15.20.39:924][997]LogMaterial: Missing cached shader map for material blinn3, compiling. 
+[2019.03.11-15.20.39:940][997]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2019.03.11-15.20.39:958][997]LogMaterial: Missing cached shader map for material blinn7, compiling. 
+[2019.03.11-15.20.39:977][997]LogMaterial: Missing cached shader map for material lambert22, compiling. 
+[2019.03.11-15.20.39:993][997]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Troll02_Model_Files/Troll02_Idle_Anim_Anim_mixamo_com.Troll02_Idle_Anim_Anim_mixamo_com
+[2019.03.11-15.20.39:993][997]LogAnimationCompression: Recompressing (AnimSequence /Game/Troll02_Model_Files/Troll02_Idle_Anim_Anim_mixamo_com.Troll02_Idle_Anim_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.11-15.20.40:001][997]LogMaterial: Missing cached shader map for material LanternMetall, compiling. 
+[2019.03.11-15.20.40:018][997]LogMaterial: Missing cached shader map for material LanternMetall_2, compiling. 
+[2019.03.11-15.20.40:034][997]LogStaticMesh: Building static mesh Minecart_Harold_KR_Wheel_B_R...
+[2019.03.11-15.20.40:078][997]LogStaticMesh: Built static mesh [0.04s] /Game/3D_Assets/Minecart_Harold_KR_Wheel_B_R.Minecart_Harold_KR_Wheel_B_R
+[2019.03.11-15.20.40:107][997]LogStaticMesh: Building static mesh birdcage_Harold_KR_polySurface1...
+[2019.03.11-15.20.40:119][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/birdcage_Harold_KR_polySurface1.birdcage_Harold_KR_polySurface1
+[2019.03.11-15.20.40:122][997]LogStaticMesh: Building static mesh birdcage_Harold_KR_polySurface2...
+[2019.03.11-15.20.40:131][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/birdcage_Harold_KR_polySurface2.birdcage_Harold_KR_polySurface2
+[2019.03.11-15.20.40:133][997]LogStaticMesh: Building static mesh Crate_Harold_Js_pCube1...
+[2019.03.11-15.20.40:139][997]LogStaticMesh: Built static mesh [0.01s] /Game/3D_Assets/Crate_Harold_Js_pCube1.Crate_Harold_Js_pCube1
+[2019.03.11-15.20.40:165][997]LogMaterial: Missing cached shader map for material CageCap_Material, compiling. 
+[2019.03.11-15.20.40:181][997]LogMaterial: Missing cached shader map for material lambert6, compiling. 
+[2019.03.11-15.20.40:201][997]LogMaterial: Missing cached shader map for material blinn2, compiling. 
+[2019.03.11-15.20.40:235][997]LogAIModule: Creating AISystem for world minetest
+[2019.03.11-15.20.40:389][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164baaa4900, Size=240
+[2019.03.11-15.20.40:389][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164ba9b6480, Size=40
+[2019.03.11-15.20.40:389][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164a1f5d500, Size=240
+[2019.03.11-15.20.40:511][997]LogShaderCompilers: Display: Shaders left to compile 2483
+[2019.03.11-15.20.40:635][997]LogShaderCompilers: Display: Shaders left to compile 2473
+[2019.03.11-15.20.42:073][997]LogShaderCompilers: Display: Shaders left to compile 2463
+[2019.03.11-15.20.42:321][997]LogSlate: Window 'Save Content' being destroyed
+[2019.03.11-15.20.42:784][997]LogShaderCompilers: Display: Shaders left to compile 2453
+[2019.03.11-15.20.42:785][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level01" FILE="../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.11-15.20.42:986][997]LogShaderCompilers: Display: Shaders left to compile 2443
+[2019.03.11-15.20.43:024][997]LogSavePackage: Save=198.19ms
+[2019.03.11-15.20.43:025][997]LogSavePackage: Moving '../../../../../Oyvind_Unreal/VikingShooter/Saved/Level01BAC5CEB4431C5C58142CF2A2AB9C7C09.tmp' to '../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/Level01.umap'
+[2019.03.11-15.20.43:040][997]LogSavePackage: Display: Finished SavePackage ../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/Level01.umap
+[2019.03.11-15.20.43:094][997]LogFileHelpers: Saving map 'Level01' took 0.590
+[2019.03.11-15.20.43:108][997]Cmd: MAP LOAD FILE="../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/minetest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.11-15.20.43:109][997]LightingResults: New page: Lighting Build
+[2019.03.11-15.20.43:110][997]LoadErrors: New page: Loading map: minetest.umap
+[2019.03.11-15.20.43:114][997]MapCheck: New page: Map Check
+[2019.03.11-15.20.43:114][997]LightingResults: New page: Lighting Build
+[2019.03.11-15.20.43:338][997]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.11-15.20.43:408][997]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.11-15.20.43:662][997]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 253.315ms to complete.
+[2019.03.11-15.20.43:664][997]LogFileHelpers: Loading map 'minetest' took 0.569
+[2019.03.11-15.20.44:031][ 11]LogShaderCompilers: Display: Shaders left to compile 2433
+[2019.03.11-15.20.45:918][165]LogShaderCompilers: Display: Shaders left to compile 2423
+[2019.03.11-15.20.46:542][219]LogShaderCompilers: Display: Shaders left to compile 2413
+[2019.03.11-15.20.47:541][304]LogShaderCompilers: Display: Shaders left to compile 2403
+[2019.03.11-15.20.47:860][331]LogShaderCompilers: Display: Shaders left to compile 2393
+[2019.03.11-15.20.49:522][457]LogShaderCompilers: Display: Shaders left to compile 2383
+[2019.03.11-15.20.50:405][529]LogShaderCompilers: Display: Shaders left to compile 2373
+[2019.03.11-15.20.51:246][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.20.51:310][573]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.11-15.20.51:343][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.11-15.20.51:490][573]LogShaderCompilers: Display: Shaders left to compile 2363
+[2019.03.11-15.20.52:121][573]LogShaderCompilers: Display: Shaders left to compile 2353
+[2019.03.11-15.20.52:887][573]LogSlate: Window 'Message' being destroyed
+[2019.03.11-15.20.52:892][573]PIE: New page: PIE session: minetest (Mar 11, 2019, 5:20:52 PM)
+[2019.03.11-15.20.52:893][573]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_minetest
+[2019.03.11-15.20.52:929][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036671s)
+[2019.03.11-15.20.52:930][573]LogAIModule: Creating AISystem for world minetest
+[2019.03.11-15.20.52:931][573]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2019.03.11-15.20.52:931][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/minetest.minetest to /Game/Maps/UEDPIE_0_minetest.minetest (0.038190s)
+[2019.03.11-15.20.53:031][573]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.11-15.20.53:595][573]LogShaderCompilers: Display: Shaders left to compile 2343
+[2019.03.11-15.20.53:595][573]LogShaderCompilers: Display: Shaders left to compile 2333
+[2019.03.11-15.20.53:595][573]LogInit: FAudioDevice initialized.
+[2019.03.11-15.20.53:641][573]LogLoad: Game class is 'BP_TwinStickGameMode_C'
+[2019.03.11-15.20.53:677][573]LogWorld: Bringing World /Game/Maps/UEDPIE_0_minetest.minetest up for play (max tick rate 0) at 2019.03.11-16.20.53
+[2019.03.11-15.20.53:686][573]LogWorld: Bringing up level for play took: 0.043708
+[2019.03.11-15.20.53:690][573]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_minetest 1.709
+[2019.03.11-15.20.54:785][660]LogShaderCompilers: Display: Shaders left to compile 2323
+[2019.03.11-15.20.55:300][697]LogShaderCompilers: Display: Shaders left to compile 2313
+[2019.03.11-15.20.56:914][821]LogShaderCompilers: Display: Shaders left to compile 2303
+[2019.03.11-15.20.57:957][908]LogShaderCompilers: Display: Shaders left to compile 2293
+[2019.03.11-15.20.59:082][989]LogShaderCompilers: Display: Shaders left to compile 2283
+[2019.03.11-15.20.59:635][ 39]LogShaderCompilers: Display: Shaders left to compile 2273
+[2019.03.11-15.21.00:956][106]LogShaderCompilers: Display: Shaders left to compile 2263
+[2019.03.11-15.21.01:360][143]LogShaderCompilers: Display: Shaders left to compile 2253
+[2019.03.11-15.21.03:151][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.21.03:235][313]LogRenderer: Reallocating scene render targets to support 1300x344 Format 10 NumSamples 1 (Frame:936).
+[2019.03.11-15.21.03:296][314]LogRenderer: Reallocating scene render targets to support 1300x368 Format 10 NumSamples 1 (Frame:938).
+[2019.03.11-15.21.03:361][315]LogShaderCompilers: Display: Shaders left to compile 2243
+[2019.03.11-15.21.03:361][315]LogRenderer: Reallocating scene render targets to support 1300x408 Format 10 NumSamples 1 (Frame:940).
+[2019.03.11-15.21.03:424][316]LogRenderer: Reallocating scene render targets to support 1300x468 Format 10 NumSamples 1 (Frame:942).
+[2019.03.11-15.21.03:490][317]LogRenderer: Reallocating scene render targets to support 1300x496 Format 10 NumSamples 1 (Frame:944).
+[2019.03.11-15.21.03:547][318]LogRenderer: Reallocating scene render targets to support 1300x500 Format 10 NumSamples 1 (Frame:946).
+[2019.03.11-15.21.03:625][319]LogRenderer: Reallocating scene render targets to support 1300x508 Format 10 NumSamples 1 (Frame:948).
+[2019.03.11-15.21.03:685][320]LogRenderer: Reallocating scene render targets to support 1300x540 Format 10 NumSamples 1 (Frame:950).
+[2019.03.11-15.21.03:745][321]LogRenderer: Reallocating scene render targets to support 1300x584 Format 10 NumSamples 1 (Frame:952).
+[2019.03.11-15.21.03:806][322]LogRenderer: Reallocating scene render targets to support 1300x632 Format 10 NumSamples 1 (Frame:954).
+[2019.03.11-15.21.03:863][323]LogRenderer: Reallocating scene render targets to support 1300x664 Format 10 NumSamples 1 (Frame:956).
+[2019.03.11-15.21.03:926][324]LogRenderer: Reallocating scene render targets to support 1300x672 Format 10 NumSamples 1 (Frame:958).
+[2019.03.11-15.21.03:956][324]LogShaderCompilers: Display: Shaders left to compile 2233
+[2019.03.11-15.21.04:911][364]LogShaderCompilers: Display: Shaders left to compile 2223
+[2019.03.11-15.21.05:843][448]LogShaderCompilers: Display: Shaders left to compile 2213
+[2019.03.11-15.21.07:690][541]LogShaderCompilers: Display: Shaders left to compile 2203
+[2019.03.11-15.21.08:365][578]LogShaderCompilers: Display: Shaders left to compile 2193
+[2019.03.11-15.21.10:330][679]LogShaderCompilers: Display: Shaders left to compile 2183
+[2019.03.11-15.21.10:554][691]LogShaderCompilers: Display: Shaders left to compile 2173
+[2019.03.11-15.21.10:604][693]LogShaderCompilers: Display: Shaders left to compile 2163
+[2019.03.11-15.21.12:220][743]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0045 seconds. Added 116 classes and 0 folders.
+[2019.03.11-15.21.12:804][743]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164c03e2a50, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.03.11-15.21.12:805][743]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164c03e2a48, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.03.11-15.21.13:426][743]LogShaderCompilers: Display: Shaders left to compile 2153
+[2019.03.11-15.21.13:426][743]LogShaderCompilers: Display: Shaders left to compile 2143
+[2019.03.11-15.21.13:757][743]LogSlate: Took 0.016845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.11-15.21.14:171][743]LogShaderCompilers: Display: Shaders left to compile 2133
+[2019.03.11-15.21.14:171][743]LogShaderCompilers: Display: Shaders left to compile 2123
+[2019.03.11-15.21.14:205][744]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.11-15.21.15:599][799]LogShaderCompilers: Display: Shaders left to compile 2113
+[2019.03.11-15.21.17:177][860]LogShaderCompilers: Display: Shaders left to compile 2103
+[2019.03.11-15.21.18:269][902]LogShaderCompilers: Display: Shaders left to compile 2093
+[2019.03.11-15.21.18:543][915]LogShaderCompilers: Display: Shaders left to compile 2083
+[2019.03.11-15.21.18:758][925]LogShaderCompilers: Display: Shaders left to compile 2073
+[2019.03.11-15.21.21:095][  1]LogShaderCompilers: Display: Shaders left to compile 2063
+[2019.03.11-15.21.22:293][ 53]LogShaderCompilers: Display: Shaders left to compile 2053
+[2019.03.11-15.21.22:418][ 59]LogShaderCompilers: Display: Shaders left to compile 2043
+[2019.03.11-15.21.23:509][123]LogShaderCompilers: Display: Shaders left to compile 2033
+[2019.03.11-15.21.25:706][271]LogShaderCompilers: Display: Shaders left to compile 2023
+[2019.03.11-15.21.25:718][272]LogShaderCompilers: Display: Shaders left to compile 2013
+[2019.03.11-15.21.26:939][334]LogShaderCompilers: Display: Shaders left to compile 2003
+[2019.03.11-15.21.27:532][359]LogShaderCompilers: Display: Shaders left to compile 1993
+[2019.03.11-15.21.29:295][438]LogShaderCompilers: Display: Shaders left to compile 1983
+[2019.03.11-15.21.30:376][479]LogShaderCompilers: Display: Shaders left to compile 1973
+[2019.03.11-15.21.30:783][498]LogShaderCompilers: Display: Shaders left to compile 1963
+[2019.03.11-15.21.31:790][534]LogShaderCompilers: Display: Shaders left to compile 1953
+[2019.03.11-15.21.32:065][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.21.33:749][604]LogShaderCompilers: Display: Shaders left to compile 1943
+[2019.03.11-15.21.34:184][613]LogShaderCompilers: Display: Shaders left to compile 1933
+[2019.03.11-15.21.35:554][659]LogShaderCompilers: Display: Shaders left to compile 1923
+[2019.03.11-15.21.37:199][718]LogShaderCompilers: Display: Shaders left to compile 1913
+[2019.03.11-15.21.37:788][741]LogShaderCompilers: Display: Shaders left to compile 1903
+[2019.03.11-15.21.39:533][809]LogShaderCompilers: Display: Shaders left to compile 1893
+[2019.03.11-15.21.39:706][815]LogShaderCompilers: Display: Shaders left to compile 1883
+[2019.03.11-15.21.40:473][842]LogAnimation: Warning: AnimBP EnemyBp_C is incompatible with skeleton Troll02_Idle_Anim_Skeleton, removing AnimBP from actor.
+[2019.03.11-15.21.40:475][842]LogAnimation: Warning: AnimBP EnemyBp_C is incompatible with skeleton Troll02_Idle_Anim_Skeleton, removing AnimBP from actor.
+[2019.03.11-15.21.40:477][842]LogAnimation: Warning: AnimBP EnemyBp_C is incompatible with skeleton Troll02_Idle_Anim_Skeleton, removing AnimBP from actor.
+[2019.03.11-15.21.40:480][842]LogAnimation: Warning: AnimBP EnemyBp_C is incompatible with skeleton Troll02_Idle_Anim_Skeleton, removing AnimBP from actor.
+[2019.03.11-15.21.40:482][842]LogAnimation: Warning: AnimBP EnemyBp_C is incompatible with skeleton Troll02_Idle_Anim_Skeleton, removing AnimBP from actor.
+[2019.03.11-15.21.40:484][842]LogAnimation: Warning: AnimBP EnemyBp_C is incompatible with skeleton Troll02_Idle_Anim_Skeleton, removing AnimBP from actor.
+[2019.03.11-15.21.40:487][842]LogAnimation: Warning: AnimBP EnemyBp_C is incompatible with skeleton Troll02_Idle_Anim_Skeleton, removing AnimBP from actor.
+[2019.03.11-15.21.40:487][842]LogAnimation: Warning: AnimBP EnemyBp_C is incompatible with skeleton Troll02_Idle_Anim_Skeleton, removing AnimBP from actor.
+[2019.03.11-15.21.42:015][897]LogShaderCompilers: Display: Shaders left to compile 1873
+[2019.03.11-15.21.42:619][919]LogShaderCompilers: Display: Shaders left to compile 1863
+[2019.03.11-15.21.43:011][934]LogShaderCompilers: Display: Shaders left to compile 1853
+[2019.03.11-15.21.45:285][ 18]LogShaderCompilers: Display: Shaders left to compile 1843
+[2019.03.11-15.21.46:273][ 53]LogShaderCompilers: Display: Shaders left to compile 1833
+[2019.03.11-15.21.46:814][ 69]LogShaderCompilers: Display: Shaders left to compile 1823
+[2019.03.11-15.21.48:185][119]LogShaderCompilers: Display: Shaders left to compile 1813
+[2019.03.11-15.21.49:804][169]LogShaderCompilers: Display: Shaders left to compile 1803
+[2019.03.11-15.21.50:808][207]LogShaderCompilers: Display: Shaders left to compile 1793
+[2019.03.11-15.21.53:039][291]LogShaderCompilers: Display: Shaders left to compile 1783
+[2019.03.11-15.21.53:479][308]LogShaderCompilers: Display: Shaders left to compile 1773
+[2019.03.11-15.21.53:656][316]LogShaderCompilers: Display: Shaders left to compile 1763
+[2019.03.11-15.21.56:440][427]LogShaderCompilers: Display: Shaders left to compile 1753
+[2019.03.11-15.21.56:614][434]LogShaderCompilers: Display: Shaders left to compile 1743
+[2019.03.11-15.21.58:630][509]LogShaderCompilers: Display: Shaders left to compile 1733
+[2019.03.11-15.21.58:903][521]LogShaderCompilers: Display: Shaders left to compile 1723
+[2019.03.11-15.21.59:653][550]LogShaderCompilers: Display: Shaders left to compile 1713
+[2019.03.11-15.21.59:972][564]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.11-15.21.59:994][564]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164c14a4ea0, Size=4, Default__Troll01_BP_C Function /Game/Troll01_Files/Troll01_BP.Troll01_BP_C:ExecuteUbergraph_Troll01_BP
+[2019.03.11-15.21.59:995][564]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164c14a4ea0, Size=4
+[2019.03.11-15.21.59:995][564]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164c14a4ea0, Size=4, Default__Troll01_BP_C Function /Engine/Transient.REINST_Troll01_BP_C_4:ExecuteUbergraph_Troll01_BP
+[2019.03.11-15.21.59:996][564]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164c14a4f40, Size=4, Default__Troll01_BP_C Function /Game/Troll01_Files/Troll01_BP.Troll01_BP_C:ExecuteUbergraph_Troll01_BP
+[2019.03.11-15.21.59:998][564]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164c14a4f40, Size=4
+[2019.03.11-15.21.59:998][564]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164c14a4f40, Size=4, Default__Troll01_BP_C Function /Engine/Transient.REINST_Troll01_BP_C_5:ExecuteUbergraph_Troll01_BP
+[2019.03.11-15.22.00:005][564]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164bf574680, Size=40, Default__Troll01_BP_C Function /Game/Troll01_Files/Troll01_BP.Troll01_BP_C:ExecuteUbergraph_Troll01_BP
+[2019.03.11-15.22.00:015][564]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Troll01_Files/Troll01_Walk_Anim.Troll01_Walk_Anim
+[2019.03.11-15.22.00:015][564]LogAnimationCompression: Recompressing (AnimSequence /Game/Troll01_Files/Troll01_Walk_Anim.Troll01_Walk_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.11-15.22.00:017][564]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Troll01_Files/Troll01_Idle_Anim.Troll01_Idle_Anim
+[2019.03.11-15.22.00:017][564]LogAnimationCompression: Recompressing (AnimSequence /Game/Troll01_Files/Troll01_Idle_Anim.Troll01_Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.11-15.22.01:512][621]LogShaderCompilers: Display: Shaders left to compile 1703
+[2019.03.11-15.22.02:800][672]LogShaderCompilers: Display: Shaders left to compile 1693
+[2019.03.11-15.22.03:155][687]BlueprintLog: New page: Compile EnemyCharacter
+[2019.03.11-15.22.03:262][687]LogShaderCompilers: Display: Shaders left to compile 1683
+[2019.03.11-15.22.03:262][687]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001641ade6800, Size=744
+[2019.03.11-15.22.03:262][687]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164c0e67400, Size=744, Default__EnemyCharacter_C Function /Engine/Transient.REINST_EnemyCharacter_C_61:ExecuteUbergraph_EnemyCharacter
+[2019.03.11-15.22.03:274][687]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164bf244d00, Size=744, Default__EnemyCharacter_C Function /Game/Blueprint/EnemyCharacter.EnemyCharacter_C:ExecuteUbergraph_EnemyCharacter
+[2019.03.11-15.22.04:736][687]LogShaderCompilers: Display: Shaders left to compile 1673
+[2019.03.11-15.22.04:738][687]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164c14a4ea0, Size=4
+[2019.03.11-15.22.04:738][687]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164c14a4f40, Size=4
+[2019.03.11-15.22.05:440][715]LogShaderCompilers: Display: Shaders left to compile 1663
+[2019.03.11-15.22.06:182][753]LogShaderCompilers: Display: Shaders left to compile 1653
+[2019.03.11-15.22.06:271][758]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.11-15.22.06:316][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.11-15.22.06:316][758]PIE: New page: PIE session: minetest (Mar 11, 2019, 5:22:06 PM)
+[2019.03.11-15.22.06:316][758]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_minetest
+[2019.03.11-15.22.06:344][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027821s)
+[2019.03.11-15.22.06:345][758]LogAIModule: Creating AISystem for world minetest
+[2019.03.11-15.22.06:346][758]LogPlayLevel: PIE: World Init took: (0.001315s)
+[2019.03.11-15.22.06:346][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/minetest.minetest to /Game/Maps/UEDPIE_0_minetest.minetest (0.029400s)
+[2019.03.11-15.22.06:451][758]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.11-15.22.06:917][758]LogShaderCompilers: Display: Shaders left to compile 1643
+[2019.03.11-15.22.06:917][758]LogInit: FAudioDevice initialized.
+[2019.03.11-15.22.06:958][758]LogLoad: Game class is 'BP_TwinStickGameMode_C'
+[2019.03.11-15.22.06:983][758]LogWorld: Bringing World /Game/Maps/UEDPIE_0_minetest.minetest up for play (max tick rate 0) at 2019.03.11-16.22.06
+[2019.03.11-15.22.06:997][758]LogWorld: Bringing up level for play took: 0.038521
+[2019.03.11-15.22.07:005][758]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_minetest 1.023
+[2019.03.11-15.22.07:215][765]LogShaderCompilers: Display: Shaders left to compile 1633
+[2019.03.11-15.22.09:973][890]LogShaderCompilers: Display: Shaders left to compile 1623
+[2019.03.11-15.22.10:327][892]LogShaderCompilers: Display: Shaders left to compile 1613
+[2019.03.11-15.22.10:729][896]LogShaderCompilers: Display: Shaders left to compile 1603
+[2019.03.11-15.22.11:799][936]LogShaderCompilers: Display: Shaders left to compile 1593
+[2019.03.11-15.22.13:375][968]LogShaderCompilers: Display: Shaders left to compile 1583
+[2019.03.11-15.22.13:693][969]LogShaderCompilers: Display: Shaders left to compile 1573
+[2019.03.11-15.22.14:363][  4]LogShaderCompilers: Display: Shaders left to compile 1563
+[2019.03.11-15.22.14:771][ 25]LogShaderCompilers: Display: Shaders left to compile 1553
+[2019.03.11-15.22.16:629][127]LogShaderCompilers: Display: Shaders left to compile 1543
+[2019.03.11-15.22.17:882][197]LogShaderCompilers: Display: Shaders left to compile 1533
+[2019.03.11-15.22.19:490][286]LogShaderCompilers: Display: Shaders left to compile 1523
+[2019.03.11-15.22.19:619][293]LogShaderCompilers: Display: Shaders left to compile 1513
+[2019.03.11-15.22.19:902][308]LogHttp: Warning: 00000164AE84CE80: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA7C41DC0-4F0E-97CC-52BA-D9AF61BB68E2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=795f2f034b069a148e9fbfb508665862%7C0247dc9c87b3404f84d4842944f85e13%7C1093d75a-a471-4781-9a17-6a652328c9aa&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.03.11-15.22.19:902][308]LogHttp: Warning: 00000164AE84CE80 Response Header Server: awselb/2.0
+[2019.03.11-15.22.19:902][308]LogHttp: Warning: 00000164AE84CE80 Response Header Date: Mon, 11 Mar 2019 15:22:18 GMT
+[2019.03.11-15.22.19:902][308]LogHttp: Warning: 00000164AE84CE80 Response Header Content-Type: text/html
+[2019.03.11-15.22.19:902][308]LogHttp: Warning: 00000164AE84CE80 Response Header Content-Length: 138
+[2019.03.11-15.22.19:902][308]LogHttp: Warning: 00000164AE84CE80 Response Header Connection: keep-alive
+[2019.03.11-15.22.20:714][352]LogShaderCompilers: Display: Shaders left to compile 1503
+[2019.03.11-15.22.22:872][472]LogShaderCompilers: Display: Shaders left to compile 1493
+[2019.03.11-15.22.23:428][503]LogShaderCompilers: Display: Shaders left to compile 1483
+[2019.03.11-15.22.24:090][540]LogShaderCompilers: Display: Shaders left to compile 1473
+[2019.03.11-15.22.24:101][540]LogShaderCompilers: Display: Shaders left to compile 1463
+[2019.03.11-15.22.27:291][714]LogShaderCompilers: Display: Shaders left to compile 1453
+[2019.03.11-15.22.27:716][738]LogShaderCompilers: Display: Shaders left to compile 1443
+[2019.03.11-15.22.28:076][758]LogShaderCompilers: Display: Shaders left to compile 1433
+[2019.03.11-15.22.29:037][809]LogShaderCompilers: Display: Shaders left to compile 1423
+[2019.03.11-15.22.30:557][895]LogShaderCompilers: Display: Shaders left to compile 1413
+[2019.03.11-15.22.32:034][975]LogShaderCompilers: Display: Shaders left to compile 1403
+[2019.03.11-15.22.33:166][ 36]LogShaderCompilers: Display: Shaders left to compile 1393
+[2019.03.11-15.22.33:386][ 48]LogShaderCompilers: Display: Shaders left to compile 1383
+[2019.03.11-15.22.34:110][ 88]LogShaderCompilers: Display: Shaders left to compile 1373
+[2019.03.11-15.22.36:632][226]LogShaderCompilers: Display: Shaders left to compile 1363
+[2019.03.11-15.22.36:735][232]LogShaderCompilers: Display: Shaders left to compile 1353
+[2019.03.11-15.22.38:246][315]LogShaderCompilers: Display: Shaders left to compile 1343
+[2019.03.11-15.22.38:471][326]LogShaderCompilers: Display: Shaders left to compile 1333
+[2019.03.11-15.22.40:183][422]LogShaderCompilers: Display: Shaders left to compile 1323
+[2019.03.11-15.22.41:484][496]LogShaderCompilers: Display: Shaders left to compile 1313
+[2019.03.11-15.22.42:620][556]LogShaderCompilers: Display: Shaders left to compile 1303
+[2019.03.11-15.22.43:781][617]LogShaderCompilers: Display: Shaders left to compile 1293
+[2019.03.11-15.22.44:270][644]LogShaderCompilers: Display: Shaders left to compile 1283
+[2019.03.11-15.22.45:505][713]LogShaderCompilers: Display: Shaders left to compile 1273
+[2019.03.11-15.22.47:762][838]LogShaderCompilers: Display: Shaders left to compile 1263
+[2019.03.11-15.22.47:919][847]LogShaderCompilers: Display: Shaders left to compile 1253
+[2019.03.11-15.22.48:269][865]LogShaderCompilers: Display: Shaders left to compile 1243
+[2019.03.11-15.22.50:348][981]LogShaderCompilers: Display: Shaders left to compile 1233
+[2019.03.11-15.22.51:537][ 48]LogShaderCompilers: Display: Shaders left to compile 1223
+[2019.03.11-15.22.52:056][ 76]LogShaderCompilers: Display: Shaders left to compile 1213
+[2019.03.11-15.22.53:259][139]LogShaderCompilers: Display: Shaders left to compile 1203
+[2019.03.11-15.22.54:534][209]LogShaderCompilers: Display: Shaders left to compile 1193
+[2019.03.11-15.22.54:869][227]LogShaderCompilers: Display: Shaders left to compile 1183
+[2019.03.11-15.22.57:007][347]LogShaderCompilers: Display: Shaders left to compile 1173
+[2019.03.11-15.22.57:796][390]LogShaderCompilers: Display: Shaders left to compile 1163
+[2019.03.11-15.22.58:005][399]LogShaderCompilers: Display: Shaders left to compile 1153
+[2019.03.11-15.22.59:533][482]LogShaderCompilers: Display: Shaders left to compile 1143
+[2019.03.11-15.23.01:034][566]LogShaderCompilers: Display: Shaders left to compile 1133
+[2019.03.11-15.23.01:620][599]LogShaderCompilers: Display: Shaders left to compile 1123
+[2019.03.11-15.23.03:087][679]LogShaderCompilers: Display: Shaders left to compile 1113
+[2019.03.11-15.23.03:950][726]LogShaderCompilers: Display: Shaders left to compile 1103
+[2019.03.11-15.23.04:309][746]LogShaderCompilers: Display: Shaders left to compile 1093
+[2019.03.11-15.23.06:679][877]LogShaderCompilers: Display: Shaders left to compile 1083
+[2019.03.11-15.23.06:840][886]LogShaderCompilers: Display: Shaders left to compile 1073
+[2019.03.11-15.23.08:224][964]LogShaderCompilers: Display: Shaders left to compile 1063
+[2019.03.11-15.23.09:085][ 10]LogShaderCompilers: Display: Shaders left to compile 1053
+[2019.03.11-15.23.10:111][ 68]LogShaderCompilers: Display: Shaders left to compile 1043
+[2019.03.11-15.23.11:848][165]LogShaderCompilers: Display: Shaders left to compile 1033
+[2019.03.11-15.23.12:710][212]LogShaderCompilers: Display: Shaders left to compile 1023
+[2019.03.11-15.23.13:443][253]LogShaderCompilers: Display: Shaders left to compile 1013
+[2019.03.11-15.23.13:862][277]LogShaderCompilers: Display: Shaders left to compile 1003
+[2019.03.11-15.23.16:106][397]LogShaderCompilers: Display: Shaders left to compile 993
+[2019.03.11-15.23.16:986][447]LogShaderCompilers: Display: Shaders left to compile 983
+[2019.03.11-15.23.17:814][493]LogShaderCompilers: Display: Shaders left to compile 973
+[2019.03.11-15.23.17:875][496]LogShaderCompilers: Display: Shaders left to compile 963
+[2019.03.11-15.23.20:801][655]LogShaderCompilers: Display: Shaders left to compile 953
+[2019.03.11-15.23.21:074][669]LogShaderCompilers: Display: Shaders left to compile 943
+[2019.03.11-15.23.21:726][706]LogShaderCompilers: Display: Shaders left to compile 933
+[2019.03.11-15.23.22:489][748]LogShaderCompilers: Display: Shaders left to compile 923
+[2019.03.11-15.23.24:634][868]LogShaderCompilers: Display: Shaders left to compile 913
+[2019.03.11-15.23.25:052][890]LogShaderCompilers: Display: Shaders left to compile 903
+[2019.03.11-15.23.26:658][975]LogShaderCompilers: Display: Shaders left to compile 893
+[2019.03.11-15.23.26:692][977]LogShaderCompilers: Display: Shaders left to compile 883
+[2019.03.11-15.23.28:119][ 56]LogShaderCompilers: Display: Shaders left to compile 873
+[2019.03.11-15.23.30:108][167]LogShaderCompilers: Display: Shaders left to compile 863
+[2019.03.11-15.23.30:143][169]LogShaderCompilers: Display: Shaders left to compile 853
+[2019.03.11-15.23.31:218][228]LogShaderCompilers: Display: Shaders left to compile 843
+[2019.03.11-15.23.32:841][317]LogShaderCompilers: Display: Shaders left to compile 833
+[2019.03.11-15.23.33:452][352]LogShaderCompilers: Display: Shaders left to compile 823
+[2019.03.11-15.23.34:818][429]LogShaderCompilers: Display: Shaders left to compile 813
+[2019.03.11-15.23.35:797][484]LogShaderCompilers: Display: Shaders left to compile 803
+[2019.03.11-15.23.36:231][507]LogShaderCompilers: Display: Shaders left to compile 793
+[2019.03.11-15.23.38:151][612]LogShaderCompilers: Display: Shaders left to compile 783
+[2019.03.11-15.23.39:069][664]LogShaderCompilers: Display: Shaders left to compile 773
+[2019.03.11-15.23.40:018][717]LogShaderCompilers: Display: Shaders left to compile 763
+[2019.03.11-15.23.40:761][758]LogShaderCompilers: Display: Shaders left to compile 753
+[2019.03.11-15.23.42:564][858]LogShaderCompilers: Display: Shaders left to compile 743
+[2019.03.11-15.23.43:129][889]LogShaderCompilers: Display: Shaders left to compile 733
+[2019.03.11-15.23.44:414][961]LogShaderCompilers: Display: Shaders left to compile 723
+[2019.03.11-15.23.46:050][ 51]LogShaderCompilers: Display: Shaders left to compile 713
+[2019.03.11-15.23.46:075][ 52]LogShaderCompilers: Display: Shaders left to compile 703
+[2019.03.11-15.23.47:061][106]LogShaderCompilers: Display: Shaders left to compile 693
+[2019.03.11-15.23.49:500][239]LogShaderCompilers: Display: Shaders left to compile 683
+[2019.03.11-15.23.49:989][266]LogShaderCompilers: Display: Shaders left to compile 673
+[2019.03.11-15.23.50:015][267]LogShaderCompilers: Display: Shaders left to compile 663
+[2019.03.11-15.23.51:742][364]LogShaderCompilers: Display: Shaders left to compile 653
+[2019.03.11-15.23.53:673][471]LogShaderCompilers: Display: Shaders left to compile 643
+[2019.03.11-15.23.53:829][480]LogShaderCompilers: Display: Shaders left to compile 633
+[2019.03.11-15.23.55:062][548]LogShaderCompilers: Display: Shaders left to compile 623
+[2019.03.11-15.23.55:872][593]LogShaderCompilers: Display: Shaders left to compile 613
+[2019.03.11-15.23.56:971][654]LogShaderCompilers: Display: Shaders left to compile 603
+[2019.03.11-15.23.58:857][757]LogShaderCompilers: Display: Shaders left to compile 593
+[2019.03.11-15.23.59:370][786]LogShaderCompilers: Display: Shaders left to compile 583
+[2019.03.11-15.23.59:633][801]LogShaderCompilers: Display: Shaders left to compile 573
+[2019.03.11-15.24.01:848][925]LogShaderCompilers: Display: Shaders left to compile 563
+[2019.03.11-15.24.02:639][969]LogShaderCompilers: Display: Shaders left to compile 553
+[2019.03.11-15.24.03:726][ 28]LogShaderCompilers: Display: Shaders left to compile 543
+[2019.03.11-15.24.04:674][ 80]LogShaderCompilers: Display: Shaders left to compile 533
+[2019.03.11-15.24.05:507][127]LogShaderCompilers: Display: Shaders left to compile 523
+[2019.03.11-15.24.06:821][201]LogShaderCompilers: Display: Shaders left to compile 513
+[2019.03.11-15.24.08:533][295]LogShaderCompilers: Display: Shaders left to compile 503
+[2019.03.11-15.24.08:687][303]LogShaderCompilers: Display: Shaders left to compile 493
+[2019.03.11-15.24.09:664][355]LogShaderCompilers: Display: Shaders left to compile 483
+[2019.03.11-15.24.11:798][475]LogShaderCompilers: Display: Shaders left to compile 473
+[2019.03.11-15.24.12:111][492]LogShaderCompilers: Display: Shaders left to compile 463
+[2019.03.11-15.24.13:814][586]LogShaderCompilers: Display: Shaders left to compile 453
+[2019.03.11-15.24.14:061][598]LogShaderCompilers: Display: Shaders left to compile 443
+[2019.03.11-15.24.15:598][681]LogShaderCompilers: Display: Shaders left to compile 433
+[2019.03.11-15.24.16:672][741]LogShaderCompilers: Display: Shaders left to compile 423
+[2019.03.11-15.24.18:102][821]LogShaderCompilers: Display: Shaders left to compile 413
+[2019.03.11-15.24.18:175][825]LogShaderCompilers: Display: Shaders left to compile 403
+[2019.03.11-15.24.20:523][955]LogShaderCompilers: Display: Shaders left to compile 393
+[2019.03.11-15.24.20:634][961]LogShaderCompilers: Display: Shaders left to compile 383
+[2019.03.11-15.24.21:692][ 21]LogShaderCompilers: Display: Shaders left to compile 373
+[2019.03.11-15.24.23:183][105]LogShaderCompilers: Display: Shaders left to compile 363
+[2019.03.11-15.24.24:862][198]LogShaderCompilers: Display: Shaders left to compile 353
+[2019.03.11-15.24.24:883][199]LogShaderCompilers: Display: Shaders left to compile 343
+[2019.03.11-15.24.26:681][296]LogShaderCompilers: Display: Shaders left to compile 333
+[2019.03.11-15.24.26:827][304]LogShaderCompilers: Display: Shaders left to compile 323
+[2019.03.11-15.24.28:364][389]LogShaderCompilers: Display: Shaders left to compile 313
+[2019.03.11-15.24.29:736][466]LogShaderCompilers: Display: Shaders left to compile 303
+[2019.03.11-15.24.30:903][529]LogShaderCompilers: Display: Shaders left to compile 293
+[2019.03.11-15.24.31:049][537]LogShaderCompilers: Display: Shaders left to compile 283
+[2019.03.11-15.24.33:454][670]LogShaderCompilers: Display: Shaders left to compile 273
+[2019.03.11-15.24.33:511][673]LogShaderCompilers: Display: Shaders left to compile 263
+[2019.03.11-15.24.34:495][729]LogShaderCompilers: Display: Shaders left to compile 253
+[2019.03.11-15.24.35:757][795]LogShaderCompilers: Display: Shaders left to compile 243
+[2019.03.11-15.24.38:012][911]LogShaderCompilers: Display: Shaders left to compile 233
+[2019.03.11-15.24.38:277][925]LogShaderCompilers: Display: Shaders left to compile 223
+[2019.03.11-15.24.39:091][970]LogShaderCompilers: Display: Shaders left to compile 213
+[2019.03.11-15.24.39:927][ 15]LogShaderCompilers: Display: Shaders left to compile 203
+[2019.03.11-15.24.42:225][143]LogShaderCompilers: Display: Shaders left to compile 193
+[2019.03.11-15.24.43:086][191]LogShaderCompilers: Display: Shaders left to compile 183
+[2019.03.11-15.24.43:115][192]LogShaderCompilers: Display: Shaders left to compile 173
+[2019.03.11-15.24.44:787][286]LogShaderCompilers: Display: Shaders left to compile 163
+[2019.03.11-15.24.46:442][377]LogShaderCompilers: Display: Shaders left to compile 153
+[2019.03.11-15.24.46:669][389]LogShaderCompilers: Display: Shaders left to compile 143
+[2019.03.11-15.24.48:096][467]LogShaderCompilers: Display: Shaders left to compile 133
+[2019.03.11-15.24.49:024][517]LogShaderCompilers: Display: Shaders left to compile 123
+[2019.03.11-15.24.49:807][560]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.03.11-15.24.51:747][668]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.03.11-15.24.52:471][708]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.03.11-15.24.52:678][719]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.03.11-15.24.54:560][823]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.03.11-15.24.55:594][880]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.03.11-15.24.56:615][938]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.03.11-15.24.57:749][  0]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.03.11-15.24.58:521][ 43]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.11-15.24.59:473][ 95]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.11-15.25.01:503][209]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.11-15.25.01:709][220]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.11-15.26.57:350][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.27.02:531][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.02:537][202]LogSlate: Window 'EnemyCharacter*' being destroyed
+[2019.03.11-15.27.26:262][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.27.30:462][594]LogSlate: Window 'EnemyCharacter*' being destroyed
+[2019.03.11-15.27.30:945][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-15.27.36:152][230]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane2)
+[2019.03.11-15.27.36:407][230]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.36:633][241]Cmd: CAMERA SNAP
+[2019.03.11-15.27.36:660][241]Snapped camera to the first selected object.
+[2019.03.11-15.27.38:696][442]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.11-15.27.38:746][442]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.39:516][489]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (RailStraight_Harold_KR_pCube11)
+[2019.03.11-15.27.39:571][489]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.40:502][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boulder02_Harold_KR3)
+[2019.03.11-15.27.43:099][809]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.03.11-15.27.43:157][809]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.43:839][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MinecartExit_Harold_Js)
+[2019.03.11-15.27.44:533][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boulder03_Harold_KR2)
+[2019.03.11-15.27.45:702][ 62]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Boulder03_Harold_KR2)
+[2019.03.11-15.27.45:738][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.46:496][141]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Boulder03_Harold_KR2)
+[2019.03.11-15.27.46:531][141]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.48:421][324]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Minecart_Harold_KR_Wheel_B_R)
+[2019.03.11-15.27.48:478][324]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.49:956][466]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MinecartExit_Harold_Js)
+[2019.03.11-15.27.50:016][466]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.27.52:995][762]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (minewall3)
+[2019.03.11-15.27.53:054][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.28.03:696][869]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.11-15.28.03:745][869]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.28.06:100][114]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Boulder02_Harold_KR2)
+[2019.03.11-15.28.06:159][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-15.28.21:948][821]MapCheck: New page: Map Check
+[2019.03.11-15.28.22:092][821]LightingResults: New page: Lighting Build - Mar 11, 2019, 5:28:22 PM
+[2019.03.11-15.28.22:355][821]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.03.11-15.28.23:023][821]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.03.11-15.28.23:044][821]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.03.11-15.28.24:085][821]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.03.11-15.28.24:085][821]LogSwarmInterface: [TryOpenConnection] Local Process ID is 128
+[2019.03.11-15.28.27:326][821]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.03.11-15.28.27:328][821]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.03.11-15.28.27:328][821]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.03.11-15.28.27:328][821]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.03.11-15.28.27:328][821]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.03.11-15.28.27:328][821]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.03.11-15.28.27:870][821]LogEditorBuildUtils: Build time 0:05
+[2019.03.11-15.28.27:894][821]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.03.11-15.28.27:946][821]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.03.11-15.28.27:959][821]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.11-15.28.28:024][823]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 72ba5bd31cf5c431a9e4f196821fa7a5_Mat, compiling. 
+[2019.03.11-15.28.28:030][823]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.11-15.28.28:030][823]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 72ba5bd31cf5c431a9e4f196821fa7a5_Mat, compiling. 
+[2019.03.11-15.28.28:049][824]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 9574_Mat, compiling. 
+[2019.03.11-15.28.28:055][824]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 9574_Mat, compiling. 
+[2019.03.11-15.28.28:078][825]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metal_bindings1, compiling. 
+[2019.03.11-15.28.28:086][825]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metal_bindings1, compiling. 
+[2019.03.11-15.28.28:100][825]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.11-15.28.28:109][826]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert9, compiling. 
+[2019.03.11-15.28.28:119][826]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert9, compiling. 
+[2019.03.11-15.28.28:134][826]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.11-15.28.28:148][827]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LanternMetall, compiling. 
+[2019.03.11-15.28.28:159][827]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LanternMetall, compiling. 
+[2019.03.11-15.28.28:181][828]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LanternGlass, compiling. 
+[2019.03.11-15.28.28:192][828]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LanternGlass, compiling. 
+[2019.03.11-15.28.28:209][829]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LanternMetall_2, compiling. 
+[2019.03.11-15.28.28:217][829]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LanternMetall_2, compiling. 
+[2019.03.11-15.28.28:233][830]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood_color, compiling. 
+[2019.03.11-15.28.28:239][830]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood_color, compiling. 
+[2019.03.11-15.28.28:254][831]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metal_bindings, compiling. 
+[2019.03.11-15.28.28:259][831]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metal_bindings, compiling. 
+[2019.03.11-15.28.28:274][832]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert5, compiling. 
+[2019.03.11-15.28.28:279][832]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert5, compiling. 
+[2019.03.11-15.28.28:294][833]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer photo-1522409640003-31c21bd5e696_Mat, compiling. 
+[2019.03.11-15.28.28:299][833]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer photo-1522409640003-31c21bd5e696_Mat, compiling. 
+[2019.03.11-15.28.28:312][834]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert21, compiling. 
+[2019.03.11-15.28.28:317][834]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert21, compiling. 
+[2019.03.11-15.28.28:331][835]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn5, compiling. 
+[2019.03.11-15.28.28:336][835]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn5, compiling. 
+[2019.03.11-15.28.28:350][836]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Spade_wood_Material, compiling. 
+[2019.03.11-15.28.28:357][836]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Spade_wood_Material, compiling. 
+[2019.03.11-15.28.28:377][837]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpadeMetal_material, compiling. 
+[2019.03.11-15.28.28:386][837]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpadeMetal_material, compiling. 
+[2019.03.11-15.28.28:409][838]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metalbindings_material1, compiling. 
+[2019.03.11-15.28.28:421][838]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metalbindings_material1, compiling. 
+[2019.03.11-15.28.28:437][839]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood2, compiling. 
+[2019.03.11-15.28.28:446][839]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood2, compiling. 
+[2019.03.11-15.28.28:460][840]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metalbindings_material, compiling. 
+[2019.03.11-15.28.28:466][840]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metalbindings_material, compiling. 
+[2019.03.11-15.28.28:486][841]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood1, compiling. 
+[2019.03.11-15.28.28:497][841]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood1, compiling. 
+[2019.03.11-15.28.28:523][842]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ExitWood1, compiling. 
+[2019.03.11-15.28.28:533][842]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ExitWood1, compiling. 
+[2019.03.11-15.28.28:559][843]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ExitBlack1, compiling. 
+[2019.03.11-15.28.28:569][843]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ExitBlack1, compiling. 
+[2019.03.11-15.28.28:594][844]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ExitMetall1, compiling. 
+[2019.03.11-15.28.28:607][844]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ExitMetall1, compiling. 
+[2019.03.11-15.28.28:631][845]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert18, compiling. 
+[2019.03.11-15.28.28:641][845]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert18, compiling. 
+[2019.03.11-15.28.28:664][846]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wheel_material, compiling. 
+[2019.03.11-15.28.28:674][846]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wheel_material, compiling. 
+[2019.03.11-15.28.28:700][847]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Minecart_stuff_Material, compiling. 
+[2019.03.11-15.28.28:712][847]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Minecart_stuff_Material, compiling. 
+[2019.03.11-15.28.28:734][848]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood, compiling. 
+[2019.03.11-15.28.28:746][848]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood, compiling. 
+[2019.03.11-15.28.28:770][849]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert19, compiling. 
+[2019.03.11-15.28.28:780][849]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert19, compiling. 
+[2019.03.11-15.28.28:805][850]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Minecart_metalwork, compiling. 
+[2019.03.11-15.28.28:816][850]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Minecart_metalwork, compiling. 
+[2019.03.11-15.28.28:845][851]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CageCap_Material, compiling. 
+[2019.03.11-15.28.28:855][851]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CageCap_Material, compiling. 
+[2019.03.11-15.28.28:885][852]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CageMetal_Material, compiling. 
+[2019.03.11-15.28.28:894][852]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CageMetal_Material, compiling. 
+[2019.03.11-15.28.28:921][853]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn1, compiling. 
+[2019.03.11-15.28.28:931][853]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn1, compiling. 
+[2019.03.11-15.28.28:960][854]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2019.03.11-15.28.28:969][854]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2019.03.11-15.28.28:996][855]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn3, compiling. 
+[2019.03.11-15.28.29:007][855]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn3, compiling. 
+[2019.03.11-15.28.29:036][856]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert3, compiling. 
+[2019.03.11-15.28.29:046][856]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert3, compiling. 
+[2019.03.11-15.28.29:072][857]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lightMetal, compiling. 
+[2019.03.11-15.28.29:081][857]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lightMetal, compiling. 
+[2019.03.11-15.28.29:109][858]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2019.03.11-15.28.29:120][858]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2019.03.11-15.28.29:145][859]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn4, compiling. 
+[2019.03.11-15.28.29:157][859]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn4, compiling. 
+[2019.03.11-15.28.29:183][860]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DarkMetal, compiling. 
+[2019.03.11-15.28.29:192][860]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DarkMetal, compiling. 
+[2019.03.11-15.28.29:213][861]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert4, compiling. 
+[2019.03.11-15.28.29:223][861]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert4, compiling. 
+[2019.03.11-15.28.29:245][862]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer railstopperMetal_Material, compiling. 
+[2019.03.11-15.28.29:255][862]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer railstopperMetal_Material, compiling. 
+[2019.03.11-15.28.29:276][863]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer railstopperWood_Material, compiling. 
+[2019.03.11-15.28.29:288][863]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer railstopperWood_Material, compiling. 
+[2019.03.11-15.28.29:307][864]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert20, compiling. 
+[2019.03.11-15.28.29:318][864]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert20, compiling. 
+[2019.03.11-15.28.29:338][865]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert38, compiling. 
+[2019.03.11-15.28.29:346][865]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert38, compiling. 
+[2019.03.11-15.28.29:360][866]LogShaderCompilers: Display: Shaders left to compile 158
+[2019.03.11-15.28.29:366][866]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert39, compiling. 
+[2019.03.11-15.28.29:375][866]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert39, compiling. 
+[2019.03.11-15.28.29:391][867]LogShaderCompilers: Display: Shaders left to compile 152
+[2019.03.11-15.28.29:398][867]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn11, compiling. 
+[2019.03.11-15.28.29:408][867]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn11, compiling. 
+[2019.03.11-15.28.29:438][868]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer rock_text_Mat, compiling. 
+[2019.03.11-15.28.29:450][868]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer rock_text_Mat, compiling. 
+[2019.03.11-15.28.29:474][869]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert35, compiling. 
+[2019.03.11-15.28.29:484][869]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert35, compiling. 
+[2019.03.11-15.28.29:508][870]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert36, compiling. 
+[2019.03.11-15.28.29:517][870]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert36, compiling. 
+[2019.03.11-15.28.29:537][871]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert37, compiling. 
+[2019.03.11-15.28.29:546][871]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert37, compiling. 
+[2019.03.11-15.28.29:578][872]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert6, compiling. 
+[2019.03.11-15.28.29:586][872]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert6, compiling. 
+[2019.03.11-15.28.29:610][873]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert7, compiling. 
+[2019.03.11-15.28.29:619][873]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert7, compiling. 
+[2019.03.11-15.28.29:667][874]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn2, compiling. 
+[2019.03.11-15.28.29:677][874]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn2, compiling. 
+[2019.03.11-15.28.29:704][875]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert8, compiling. 
+[2019.03.11-15.28.29:714][875]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert8, compiling. 
+[2019.03.11-15.28.29:737][876]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Pillar, compiling. 
+[2019.03.11-15.28.29:746][876]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Pillar, compiling. 
+[2019.03.11-15.28.29:778][877]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Dynamite_Bindings, compiling. 
+[2019.03.11-15.28.29:787][877]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Dynamite_Bindings, compiling. 
+[2019.03.11-15.28.29:815][878]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer dynamite_material, compiling. 
+[2019.03.11-15.28.29:827][878]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer dynamite_material, compiling. 
+[2019.03.11-15.28.29:857][879]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn6, compiling. 
+[2019.03.11-15.28.29:866][879]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn6, compiling. 
+[2019.03.11-15.28.29:897][880]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert22, compiling. 
+[2019.03.11-15.28.29:907][880]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert22, compiling. 
+[2019.03.11-15.28.29:932][881]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn7, compiling. 
+[2019.03.11-15.28.29:944][881]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blinn7, compiling. 
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 202
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 192
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 182
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 172
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 162
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 152
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 142
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 132
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 122
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 112
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 102
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 92
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.11-15.28.44:636][882]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.11-15.28.51:300][189]LightingResults: Warning: Door_Harold_KR_polySurface2 Object has overlapping UVs.
+[2019.03.11-15.28.51:300][189]LightingResults: Door_Harold_KR_polySurface2 Lightmap UV are overlapping by 7.4%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.51:673][207]LightingResults: Warning: Lantern_Harold_Js_pCylinder9 Object has overlapping UVs.
+[2019.03.11-15.28.51:673][207]LightingResults: Lantern_Harold_Js_pCylinder9 Lightmap UV are overlapping by 15.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:528][249]LightingResults: Warning: spade_Harold_KR_pCylinder3 Object has overlapping UVs.
+[2019.03.11-15.28.52:528][249]LightingResults: spade_Harold_KR_pCylinder3 Lightmap UV are overlapping by 45.8%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:561][251]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.52:561][251]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:561][251]LightingResults: Warning: Lantern_Harold_Js_pCylinder9 Object has overlapping UVs.
+[2019.03.11-15.28.52:561][251]LightingResults: Lantern_Harold_Js_pCylinder9 Lightmap UV are overlapping by 15.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:671][256]LightingResults: Warning: birdcage_Harold_KR_polySurface1 Object has overlapping UVs.
+[2019.03.11-15.28.52:693][257]LightingResults: birdcage_Harold_KR_polySurface1 Lightmap UV are overlapping by 47.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:693][257]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.52:693][257]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:749][260]LightingResults: Warning: Lantern_Harold_Js_pCylinder9 Object has overlapping UVs.
+[2019.03.11-15.28.52:749][260]LightingResults: Lantern_Harold_Js_pCylinder9 Lightmap UV are overlapping by 15.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:750][260]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.52:750][260]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:770][261]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.52:770][261]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:792][262]LightingResults: Warning: Ammocrate_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.52:792][262]LightingResults: Ammocrate_Harold_Js Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:814][263]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.52:814][263]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.52:879][266]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.52:879][266]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.53:055][274]LightingResults: Warning: Ammocrate_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.53:055][274]LightingResults: Ammocrate_Harold_Js Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.53:143][278]LightingResults: Warning: Ammocrate_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.53:165][279]LightingResults: Ammocrate_Harold_Js Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.53:263][284]LightingResults: Warning: spade_Harold_KR_pCylinder3 Object has overlapping UVs.
+[2019.03.11-15.28.53:263][284]LightingResults: spade_Harold_KR_pCylinder3 Lightmap UV are overlapping by 45.8%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.53:461][294]LightingResults: Warning: Lantern_Harold_Js_pCylinder9 Object has overlapping UVs.
+[2019.03.11-15.28.53:461][294]LightingResults: Lantern_Harold_Js_pCylinder9 Lightmap UV are overlapping by 15.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.53:746][308]LightingResults: Warning: Lantern_Harold_Js_pCylinder9 Object has overlapping UVs.
+[2019.03.11-15.28.53:746][308]LightingResults: Lantern_Harold_Js_pCylinder9 Lightmap UV are overlapping by 15.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.54:580][350]LightingResults: Warning: Ammocrate_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.54:580][350]LightingResults: Ammocrate_Harold_Js Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.54:811][362]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.54:812][362]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.54:978][370]LightingResults: Warning: railstopper_Harold_KR_pCube1 Object has overlapping UVs.
+[2019.03.11-15.28.54:978][370]LightingResults: railstopper_Harold_KR_pCube1 Lightmap UV are overlapping by 49.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.54:999][371]LightingResults: Warning: MinecartExit_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.54:999][371]LightingResults: MinecartExit_Harold_Js Lightmap UV are overlapping by 15.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.55:065][374]LightingResults: Warning: Door_Harold_KR_polySurface2 Object has overlapping UVs.
+[2019.03.11-15.28.55:065][374]LightingResults: Door_Harold_KR_polySurface2 Lightmap UV are overlapping by 7.4%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.55:284][383]LightingResults: Warning: MinecartExit_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.55:284][383]LightingResults: MinecartExit_Harold_Js Lightmap UV are overlapping by 15.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.56:271][425]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.56:271][425]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.56:370][430]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.56:370][430]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.56:403][432]LightingResults: Warning: spade_Harold_KR_pCylinder3 Object has overlapping UVs.
+[2019.03.11-15.28.56:403][432]LightingResults: spade_Harold_KR_pCylinder3 Lightmap UV are overlapping by 45.8%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.56:470][435]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.56:470][435]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.56:820][451]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.56:820][451]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.56:886][454]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.56:886][454]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:006][460]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.57:006][460]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:006][460]LightingResults: Warning: railstopper_Harold_KR_pCube1 Object has overlapping UVs.
+[2019.03.11-15.28.57:006][460]LightingResults: railstopper_Harold_KR_pCube1 Lightmap UV are overlapping by 49.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:105][465]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.57:105][465]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:127][466]LightingResults: Warning: birdcage_Harold_KR_polySurface1 Object has overlapping UVs.
+[2019.03.11-15.28.57:127][466]LightingResults: birdcage_Harold_KR_polySurface1 Lightmap UV are overlapping by 47.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:193][469]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.57:193][469]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:226][471]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.57:248][472]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:303][475]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.57:325][476]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:401][480]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.57:401][480]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:401][480]LightingResults: Warning: birdcage_Harold_KR_polySurface1 Object has overlapping UVs.
+[2019.03.11-15.28.57:401][480]LightingResults: birdcage_Harold_KR_polySurface1 Lightmap UV are overlapping by 47.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:467][483]LightingResults: Warning: birdcage_Harold_KR_polySurface1 Object has overlapping UVs.
+[2019.03.11-15.28.57:467][483]LightingResults: birdcage_Harold_KR_polySurface1 Lightmap UV are overlapping by 47.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:533][486]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.28.57:533][486]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:741][496]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.57:741][496]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.57:972][507]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.57:972][507]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.58:027][510]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.58:027][510]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.58:103][514]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.58:103][514]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.58:213][519]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.58:213][519]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.58:389][528]LightingResults: Warning: Shotgun_Harold_Js_pCylinder4 Object has overlapping UVs.
+[2019.03.11-15.28.58:389][528]LightingResults: Shotgun_Harold_Js_pCylinder4 Lightmap UV are overlapping by 23.9%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.58:411][529]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.28.58:411][529]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.58:411][529]LightingResults: Warning: birdcage_Harold_KR_polySurface1 Object has overlapping UVs.
+[2019.03.11-15.28.58:411][529]LightingResults: birdcage_Harold_KR_polySurface1 Lightmap UV are overlapping by 47.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.58:806][549]LightingResults: Warning: MinecartExit_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.58:806][549]LightingResults: MinecartExit_Harold_Js Lightmap UV are overlapping by 15.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.58:926][555]LightingResults: Warning: Lantern_Harold_Js_pCylinder9 Object has overlapping UVs.
+[2019.03.11-15.28.58:926][555]LightingResults: Lantern_Harold_Js_pCylinder9 Lightmap UV are overlapping by 15.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.59:124][564]LightingResults: Warning: Ammocrate_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.59:146][565]LightingResults: Ammocrate_Harold_Js Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.59:409][577]LightingResults: Warning: Ammocrate_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.28.59:409][577]LightingResults: Ammocrate_Harold_Js Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.59:486][580]LightingResults: Warning: spade_Harold_KR_pCylinder3 Object has overlapping UVs.
+[2019.03.11-15.28.59:486][580]LightingResults: spade_Harold_KR_pCylinder3 Lightmap UV are overlapping by 45.8%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.59:650][588]LightingResults: Warning: birdcage_Harold_KR_polySurface1 Object has overlapping UVs.
+[2019.03.11-15.28.59:650][588]LightingResults: birdcage_Harold_KR_polySurface1 Lightmap UV are overlapping by 47.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.59:672][589]LightingResults: Warning: Lantern_Harold_Js_pCylinder9 Object has overlapping UVs.
+[2019.03.11-15.28.59:672][589]LightingResults: Lantern_Harold_Js_pCylinder9 Lightmap UV are overlapping by 15.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.28.59:903][599]LightingResults: Warning: birdcage_Harold_KR_polySurface1 Object has overlapping UVs.
+[2019.03.11-15.28.59:903][599]LightingResults: birdcage_Harold_KR_polySurface1 Lightmap UV are overlapping by 47.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.29.00:210][612]LightingResults: Warning: spade_Harold_KR_pCylinder3 Object has overlapping UVs.
+[2019.03.11-15.29.00:211][612]LightingResults: spade_Harold_KR_pCylinder3 Lightmap UV are overlapping by 45.8%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.29.00:363][617]LightingResults: Warning: Ammocrate_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.29.00:363][617]LightingResults: Ammocrate_Harold_Js Lightmap UV are overlapping by 48.7%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.29.00:671][627]LightingResults: Warning: MinecartExit_Harold_Js Object has overlapping UVs.
+[2019.03.11-15.29.00:671][627]LightingResults: MinecartExit_Harold_Js Lightmap UV are overlapping by 15.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.29.00:879][631]LightingResults: Warning: Axerifle_Harold_KR Object has overlapping UVs.
+[2019.03.11-15.29.00:879][631]LightingResults: Axerifle_Harold_KR Lightmap UV are overlapping by 49.9%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.29.00:967][635]LightingResults: Warning: RailCurved_Harold_KR_pCube5 Object has overlapping UVs.
+[2019.03.11-15.29.00:967][635]LightingResults: RailCurved_Harold_KR_pCube5 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.29.00:989][636]LightingResults: Warning: RailStraight_Harold_KR_pCube4 Object has overlapping UVs.
+[2019.03.11-15.29.00:989][636]LightingResults: RailStraight_Harold_KR_pCube4 Lightmap UV are overlapping by 48.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.03.11-15.29.02:995][790]Job is a success!
+[2019.03.11-15.29.03:389][791]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.294s
+[2019.03.11-15.29.03:389][791]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.03.11-15.29.03:389][791]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.3Mb (trimmed 0.5Mb due to 0.010000 MinBrickError)
+[2019.03.11-15.29.03:389][791]LogVolumetricLightmapImport:      Bricks at Level
+[2019.03.11-15.29.03:389][791]LogVolumetricLightmapImport:          0: 1.6% covering 100.0% of volume
+[2019.03.11-15.29.03:389][791]LogVolumetricLightmapImport:          1: 5.9% covering 5.9% of volume
+[2019.03.11-15.29.03:389][791]LogVolumetricLightmapImport:          2: 92.5% covering 1.4% of volume
+[2019.03.11-15.29.04:774][791]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.03.11-15.29.04:774][791]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.03.11-15.29.04:774][791]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.03.11-15.29.04:774][791]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.03.11-15.29.04:774][791]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2019.03.11-15.29.04:774][791]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2019.03.11-15.29.04:939][791]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.03.11-15.29.04:939][791]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2019.03.11-15.29.05:007][791]Lightmass on OYVIND: 16.6 sec total, 322 ms importing, 133 ms setup, 2.10 sec photons, 13.9 sec processing, 0 ms extra exporting [250/250 mappings]. Threads: 1:37 min total, 46.0 sec processing.
+[2019.03.11-15.29.05:069][791]LogStaticLightingSystem: Illumination: 42.9 sec (1.18 sec encoding lightmaps, 163 ms encoding shadowmaps)
+[2019.03.11-15.29.05:069][791]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2019.03.11-15.29.05:070][791]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.03.11-15.29.05:348][791]DumpUnbuiltLightIteractions
+[2019.03.11-15.29.05:349][791]Lights with unbuilt interactions: 0
+[2019.03.11-15.29.05:349][791]
+[2019.03.11-15.29.05:349][791]Primitives with unbuilt interactions: 0
+[2019.03.11-15.29.05:471][792]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.03.11-15.29.05:471][792]MapCheck: New page: minetest - Mar 11, 2019, 5:29:05 PM
+[2019.03.11-15.29.05:509][792]MapCheck: Warning: Crate_Harold_Js_pCube1_263 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:509][792]MapCheck: Warning: Crate_Harold_Js_pCube2 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:510][792]MapCheck: Warning: Crate_Harold_Js_pCube3_19 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:510][792]MapCheck: Warning: Crate_Harold_Js_pCube4 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:510][792]MapCheck: Warning: Crate_Harold_Js_pCube5 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:510][792]MapCheck: Warning: Crate_Harold_Js_pCube6 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:511][792]MapCheck: Warning: Crate_Harold_Js_pCube7 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:511][792]MapCheck: Warning: Crate_Harold_Js_pCube8 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:511][792]MapCheck: Warning: Crate_Harold_Js_pCube9_70 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:511][792]MapCheck: Warning: Crate_Harold_Js_pCube10 1 element(s) with zero triangles in static mesh 'Crate_Harold_Js_pCube1' 
+[2019.03.11-15.29.05:705][792]MapCheck: Map check complete: 0 Error(s), 10 Warning(s), took 234.675ms to complete.
+[2019.03.11-15.29.32:235][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/minetest" FILE="../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/minetest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.11-15.29.32:598][ 24]LogSavePackage: Save=320.93ms
+[2019.03.11-15.29.32:598][ 24]LogSavePackage: Moving '../../../../../Oyvind_Unreal/VikingShooter/Saved/minetestF7B64D5A45D426D59B3DACBA5332A32D.tmp' to '../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/minetest.umap'
+[2019.03.11-15.29.32:608][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/minetest.umap
+[2019.03.11-15.29.32:643][ 24]LogFileHelpers: Saving map 'minetest' took 0.580
+[2019.03.11-15.29.32:648][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/minetest_BuiltData" FILE="../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/minetest_BuiltData.uasset" SILENT=true
+[2019.03.11-15.29.32:948][ 24]LogSavePackage: Save=268.12ms
+[2019.03.11-15.29.32:949][ 24]LogSavePackage: Moving '../../../../../Oyvind_Unreal/VikingShooter/Saved/minetest_BuiltData3F537B9B45443033ACCB859D60D5B006.tmp' to '../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/minetest_BuiltData.uasset'
+[2019.03.11-15.29.32:961][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../Oyvind_Unreal/VikingShooter/Content/Maps/minetest_BuiltData.uasset
+[2019.03.11-15.29.33:084][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/EnemyCharacter" FILE="../../../../../Oyvind_Unreal/VikingShooter/Content/Blueprint/EnemyCharacter.uasset" SILENT=true
+[2019.03.11-15.29.33:178][ 24]LogSavePackage: Save=74.38ms
+[2019.03.11-15.29.33:178][ 24]LogSavePackage: Moving '../../../../../Oyvind_Unreal/VikingShooter/Saved/EnemyCharacter14FBA8B146C3C45C26B8E49777B18F15.tmp' to '../../../../../Oyvind_Unreal/VikingShooter/Content/Blueprint/EnemyCharacter.uasset'
+[2019.03.11-15.29.33:188][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../Oyvind_Unreal/VikingShooter/Content/Blueprint/EnemyCharacter.uasset
+[2019.03.11-15.29.59:850][233]LogSlate: Window 'Switch Project' being destroyed
+[2019.03.11-15.30.00:213][235]LogSlate: Window 'Message Log' being destroyed
+[2019.03.11-15.30.00:216][235]LogSlate: Window 'Message Log' being destroyed
