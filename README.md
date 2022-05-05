@@ -1,4 +1,7 @@
-![](https://github.com/krissen95/VikingShooter/blob/master/Herald.png)
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/krissen95/VikingShooter/blob/master/Herald.png">
+</p>
+
 # VikingShooter
  ![](https://github.com/krissen95/VikingShooter/blob/master/herald.gif)
  
@@ -12,5 +15,5 @@ Mouse cursor to aim
 Left mouse button to shoot
 Right mouse button to throw dynamite
 
- Link to final Build
+ **Link to final Build**
  https://drive.google.com/file/d/1KDaMb_pcFn89xZaPNul76jj_Ap1SzqZE/view?usp=sharing
