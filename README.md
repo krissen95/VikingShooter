@@ -1,6 +1,9 @@
 <p align="center" width="100%">
 	<h1>VikingShooter</h1>
-	<br>
+	br>
+</p>
+<p align="center" width="100%">
+	<
     <img width="33%" src="https://github.com/krissen95/VikingShooter/blob/master/Herald.png">
 </p>
 
@@ -11,15 +14,18 @@
 </p>
  ![](https://github.com/krissen95/VikingShooter/blob/master/herald.gif)
  
-
-**Controls:**
 <p>
+	<b>Controls:</b>
 	<br>
-	<b>WASD to move</b><br>
-	Mouse cursor to aim<br>
-	Left mouse button to shoot<br>
-	Right mouse button to throw dynamite<br>
-	<br><br>
-	<b>Link to final Build:</b><br>
+	WASD to move
+	<br>
+	Mouse cursor to aim
+	<br>
+	Left mouse button to shoot
+	<br>
+	Right mouse button to throw dynamite
+	<br><br><br>
+	<b>Link to final build:</b>
+	<br>
 </p> 
  https://drive.google.com/file/d/1KDaMb_pcFn89xZaPNul76jj_Ap1SzqZE/view?usp=sharing
