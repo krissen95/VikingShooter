@@ -1,9 +1,9 @@
-<p align="center" width="100%">
+<p <style> h1{text-align: center; }</style>>
 	<h1>VikingShooter</h1>
-	br>
+	<br>
 </p>
 <p align="center" width="100%">
-	<
+	
     <img width="33%" src="https://github.com/krissen95/VikingShooter/blob/master/Herald.png">
 </p>
 
