@@ -10,6 +10,8 @@
 	<b>Game summary:</b><br>
 	Herald is a twin-stick shooter, that in addition to shooting mix in close range combat which also works like an excavation and mineral gathering tool. It’s set in a norse viking themed setting with steam punk undertones. Create ammunition, repair gear, uncover rooms and find your way to the exit in time or become buried alive, trapped like your 
 	predecessors. 
+	<br><br>
+	Game was made by : Fredrik, Kjetil, Kenneth, Jonas, Øyvind, Kristian
 	<br>
 	<img src="herald.gif?raw=true" width="500px">
 	<br>
