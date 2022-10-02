@@ -3,7 +3,7 @@
 	<br>
 </p>
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/krissen95/VikingShooter/blob/master/Herald.png">
+    <img width="33%" src="https://github.com/krissendev/VikingShooter/blob/master/Herald.png">
 </p>
 
 <p>
